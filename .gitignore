@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.cache/
+.DS_Store
+*.tsbuildinfo
+.env*
+!.env.example
+assets/source/
+research/
+public/audio/
+public/tiles/
+public/cinematic/
+public/culture/
+public/review/
+public/painting-videos-v2/

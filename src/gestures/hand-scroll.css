@@ -1,0 +1,11 @@
+.hand-scroll{position:fixed;left:24px;bottom:52px;z-index:24;width:320px;max-width:calc(100vw - 32px);padding:14px 16px;background:rgba(243,239,226,.96);color:#373e32;border:1px solid #b9ab87;box-shadow:0 5px 22px #28271720;font-family:inherit}
+.hand-scroll-heading{display:flex;align-items:center;justify-content:space-between;letter-spacing:.18em;font-size:16px}
+.hand-scroll-heading button{font-size:25px;line-height:1;padding:3px 6px;border:0;background:transparent;color:inherit;cursor:pointer}
+.hand-scroll-body{display:flex;gap:12px;align-items:center;margin:10px 0}
+.hand-scroll video{width:112px;height:84px;flex:none;object-fit:cover;transform:scaleX(-1);background:#343b31;border-radius:2px}
+.hand-scroll p{font-size:12px;line-height:1.7;margin:4px 0;letter-spacing:0}
+.hand-scroll .hand-scroll-status{font-size:13px;color:#725339}
+.hand-scroll[data-status=tracking] .hand-scroll-status{color:#426245}
+.hand-scroll small{font-size:11px;color:#797361;letter-spacing:.02em}
+.hand-scroll-error{color:#8d4534}.hand-scroll-error button{margin-left:8px;background:transparent;border:0;border-bottom:1px solid currentColor;color:inherit;cursor:pointer}
+@media(max-width:600px){.hand-scroll{left:16px;bottom:46px;width:300px;padding:10px 12px}.hand-scroll video{width:88px;height:66px}}

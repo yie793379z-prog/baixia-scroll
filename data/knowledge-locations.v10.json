@@ -1,0 +1,332 @@
+[
+  {
+    "cardId": "K04",
+    "status": "pending",
+    "boundsPx": null,
+    "approvedByHuman": false,
+    "sourceIds": [
+      "DEJI_LIANG"
+    ],
+    "reason": "已检视全卷8幅索引和右侧村舍局部，尚不能可靠区分目标动作/器物。保留空坐标。"
+  },
+  {
+    "cardId": "K05",
+    "sceneId": "well",
+    "imageId": "fengning_1794",
+    "boundsPx": {
+      "x": 116700,
+      "y": 500,
+      "width": 1500,
+      "height": 1500
+    },
+    "anchorPx": {
+      "x": 117160,
+      "y": 1210
+    },
+    "objects": [
+      {
+        "x": 117020,
+        "y": 1100,
+        "width": 320,
+        "height": 250
+      }
+    ],
+    "status": "located_pending_human",
+    "approvedByHuman": false,
+    "confidence": "visible_object",
+    "observation": "井口前人物双手持线状物，旁置容器；画中未见独立滑轮架。",
+    "sourceSha256": "ec76713b0a845ed3f42f15a0b1f725e86419aaea5907ed569539ba16a3e2babb",
+    "cropSha256": "3dffb5cbda01b9d57e71f7a20353f9768c123ab7908a2177eb7d8b9c14ba1ccf",
+    "cropFile": "culture/hotspot-review/K05-crop.jpg",
+    "markedFile": "culture/hotspot-review/K05-marked.png",
+    "segments": [
+      "TIF原画格式/分段切片/01.tif"
+    ],
+    "evidenceIds": [
+      "A-K05",
+      "B-K05"
+    ],
+    "sourceIds": [
+      "DEJI_LIANG"
+    ]
+  },
+  {
+    "cardId": "K06",
+    "status": "pending",
+    "boundsPx": null,
+    "approvedByHuman": false,
+    "sourceIds": [
+      "DEJI_LIANG"
+    ],
+    "reason": "已检视全卷8幅索引和右侧村舍局部，尚不能可靠区分目标动作/器物。保留空坐标。"
+  },
+  {
+    "cardId": "K07",
+    "sceneId": "city_gate",
+    "imageId": "fengning_1794",
+    "boundsPx": {
+      "x": 69500,
+      "y": 250,
+      "width": 4300,
+      "height": 3550
+    },
+    "anchorPx": {
+      "x": 72200,
+      "y": 2200
+    },
+    "objects": [
+      {
+        "x": 71800,
+        "y": 1400,
+        "width": 900,
+        "height": 1300
+      }
+    ],
+    "status": "located_pending_human",
+    "approvedByHuman": false,
+    "confidence": "visible_structure_only",
+    "observation": "可见围合墙体及入口；遮挡后的完整通路不明确，暂不制作穿墙路线。",
+    "sourceSha256": "ec76713b0a845ed3f42f15a0b1f725e86419aaea5907ed569539ba16a3e2babb",
+    "cropSha256": "da308a167a30a92c3ee10f1041854dc79ee30f4937dc51de9416ae81db904831",
+    "cropFile": "culture/hotspot-review/K07-crop.jpg",
+    "markedFile": "culture/hotspot-review/K07-marked.png",
+    "segments": [
+      "TIF原画格式/分段切片/04.tif"
+    ],
+    "evidenceIds": [
+      "A-K07",
+      "B-K07"
+    ],
+    "sourceIds": [
+      "DEJI_LIANG",
+      "NANJING_HIST",
+      "P2015"
+    ]
+  },
+  {
+    "cardId": "K08",
+    "sceneId": "q_shop",
+    "imageId": "fengning_1794",
+    "boundsPx": {
+      "x": 55800,
+      "y": 1100,
+      "width": 2200,
+      "height": 1400
+    },
+    "anchorPx": {
+      "x": 56900,
+      "y": 1800
+    },
+    "objects": [
+      {
+        "x": 56622,
+        "y": 1461,
+        "width": 70,
+        "height": 115
+      },
+      {
+        "x": 56906,
+        "y": 1524,
+        "width": 112,
+        "height": 98
+      },
+      {
+        "x": 56294,
+        "y": 1642,
+        "width": 143,
+        "height": 170
+      }
+    ],
+    "status": "located_pending_human",
+    "approvedByHuman": false,
+    "confidence": "visible_object",
+    "observation": "可见檐下悬挂白色器物、台上圆形容器与左侧提梁桶。以形状与位置配对，不认定店名和行业。",
+    "sourceSha256": "ec76713b0a845ed3f42f15a0b1f725e86419aaea5907ed569539ba16a3e2babb",
+    "cropSha256": "3c51b66228f43794cc5db1bedb05449d09c0f26768bdd47815f9421be0b8113a",
+    "cropFile": "culture/hotspot-review/K08-crop.jpg",
+    "markedFile": "culture/hotspot-review/K08-marked.png",
+    "segments": [
+      "TIF原画格式/分段切片/05.tif"
+    ],
+    "evidenceIds": [
+      "A-K08",
+      "B-K08"
+    ],
+    "sourceIds": [
+      "DEJI_NIE",
+      "DEJI_ART",
+      "P2015"
+    ]
+  },
+  {
+    "cardId": "K09",
+    "sceneId": "cart",
+    "imageId": "fengning_1794",
+    "boundsPx": {
+      "x": 99350,
+      "y": 2300,
+      "width": 4700,
+      "height": 1750
+    },
+    "anchorPx": {
+      "x": 101320,
+      "y": 3100
+    },
+    "objects": [
+      {
+        "x": 99900,
+        "y": 2600,
+        "width": 3300,
+        "height": 1200
+      }
+    ],
+    "status": "located_pending_human",
+    "approvedByHuman": false,
+    "confidence": "visible_object",
+    "observation": "车辆、牲畜、载物与随行人物可辨。",
+    "sourceSha256": "ec76713b0a845ed3f42f15a0b1f725e86419aaea5907ed569539ba16a3e2babb",
+    "cropSha256": "1594dcd55c4f55f8cce492fa80c0fd67b37fc315b7c9e66c1f34a1bc3c530ec5",
+    "cropFile": "culture/hotspot-review/K09-crop.jpg",
+    "markedFile": "culture/hotspot-review/K09-marked.png",
+    "segments": [
+      "TIF原画格式/分段切片/02.tif"
+    ],
+    "evidenceIds": [
+      "A-K09",
+      "B-K09"
+    ],
+    "sourceIds": [
+      "DEJI_NIE",
+      "DEJI_ART"
+    ]
+  },
+  {
+    "cardId": "K10",
+    "sceneId": "water_gate",
+    "imageId": "fengning_1794",
+    "boundsPx": {
+      "x": 32700,
+      "y": 0,
+      "width": 4400,
+      "height": 2800
+    },
+    "anchorPx": {
+      "x": 34880,
+      "y": 1200
+    },
+    "objects": [
+      {
+        "x": 34480,
+        "y": 420,
+        "width": 900,
+        "height": 1050
+      }
+    ],
+    "status": "located_pending_human",
+    "approvedByHuman": false,
+    "confidence": "visible_object",
+    "observation": "可见水面、水门及门口有篷船；描行止于门外船旁，不补绘门后的水路。",
+    "sourceSha256": "ec76713b0a845ed3f42f15a0b1f725e86419aaea5907ed569539ba16a3e2babb",
+    "cropSha256": "4cebd769175d4b07d8845e930bec0bf2ac7dd95d51fe28fc94838491fb86f49b",
+    "cropFile": "culture/hotspot-review/K10-crop.jpg",
+    "markedFile": "culture/hotspot-review/K10-marked.png",
+    "segments": [
+      "TIF原画格式/分段切片/06.tif",
+      "TIF原画格式/分段切片/07.tif"
+    ],
+    "evidenceIds": [
+      "A-K10",
+      "B-K10"
+    ],
+    "sourceIds": [
+      "DEJI_NIE",
+      "DEJI_ART",
+      "NANJING_HIST"
+    ]
+  },
+  {
+    "cardId": "K12",
+    "sceneId": "farmland",
+    "imageId": "fengning_1794",
+    "boundsPx": {
+      "x": 2600,
+      "y": 700,
+      "width": 4400,
+      "height": 2100
+    },
+    "anchorPx": {
+      "x": 3900,
+      "y": 2250
+    },
+    "objects": [
+      {
+        "x": 3100,
+        "y": 1600,
+        "width": 1800,
+        "height": 1000
+      }
+    ],
+    "status": "located_pending_human",
+    "approvedByHuman": false,
+    "confidence": "visible_object",
+    "observation": "长柄工具、地面铺陈物与操作人物可辨。",
+    "sourceSha256": "ec76713b0a845ed3f42f15a0b1f725e86419aaea5907ed569539ba16a3e2babb",
+    "cropSha256": "6ffef324fd20dda40d05222f7991f5466fff135b97236eba31f7826e03b793d9",
+    "cropFile": "culture/hotspot-review/K12-crop.jpg",
+    "markedFile": "culture/hotspot-review/K12-marked.png",
+    "segments": [
+      "TIF原画格式/分段切片/08.tif"
+    ],
+    "evidenceIds": [
+      "A-K12",
+      "B-K12"
+    ],
+    "sourceIds": [
+      "DEJI_ART",
+      "DEJI_NIE"
+    ]
+  },
+  {
+    "cardId": "K13",
+    "sceneId": "signature",
+    "imageId": "fengning_1794",
+    "boundsPx": {
+      "x": 1920,
+      "y": 2630,
+      "width": 450,
+      "height": 1100
+    },
+    "anchorPx": {
+      "x": 2150,
+      "y": 3190
+    },
+    "objects": [
+      {
+        "x": 2020,
+        "y": 2760,
+        "width": 280,
+        "height": 900
+      }
+    ],
+    "status": "located_pending_human",
+    "approvedByHuman": false,
+    "confidence": "visible_object",
+    "observation": "可辨“乾隆五十九年十一月”“臣馮寧奉”“勅恭仿宋院本金陵圖”；逐字人工审核仍待进行。",
+    "sourceSha256": "ec76713b0a845ed3f42f15a0b1f725e86419aaea5907ed569539ba16a3e2babb",
+    "cropSha256": "b04509abb705b479926e01d7fbb155cdc3fd919301fab7fd5a5173da089bdb15",
+    "cropFile": "culture/hotspot-review/K13-crop.jpg",
+    "markedFile": "culture/hotspot-review/K13-marked.png",
+    "segments": [
+      "TIF原画格式/分段切片/08.tif"
+    ],
+    "evidenceIds": [
+      "A-K13",
+      "B-K13"
+    ],
+    "sourceIds": [
+      "DEJI_NIE",
+      "DEJI_ART",
+      "DEJI_QIU"
+    ]
+  }
+]

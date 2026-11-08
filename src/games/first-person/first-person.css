@@ -1,0 +1,21 @@
+/* Quiet in-world controls leave the scene, lighting and working objects prominent. */
+
+.first-person-game{background:#50685d;border-color:#767d68;box-shadow:0 12px 40px #29372f28}
+.first-person-game .fps-top{gap:8px;padding:16px 20px 38px;background:linear-gradient(180deg,#142a27b3,transparent);font-family:system-ui,sans-serif}
+.first-person-game .fps-top .fps-world-label{background:transparent;border-left:2px solid #e4c78b;padding:4px 11px;letter-spacing:.16em;font:14px/1.7 'Songti SC',serif;white-space:nowrap}
+.first-person-game .fps-top strong{font-size:11px;background:#17322a66;border:1px solid #ede4c626;border-radius:3px}
+.first-person-game .fps-hint-toggle{left:20px;top:65px;background:#17322a73;border:1px solid #f0dfba26;border-radius:3px;font-size:10px;backdrop-filter:blur(8px)}
+.first-person-game .fps-bottom{background:linear-gradient(transparent,#122a2366);padding:45px 22px 72px}
+.first-person-game .fps-bottom>div:first-child{border-left:1px solid #e3d1a38c;padding-left:13px}
+.first-person-game .fps-bottom small{color:#e2dbc6}
+.first-person-game .fps-actions button{border-radius:3px;box-shadow:0 3px 14px #14252025;border-color:#eedbb155}
+.first-person-game .fps-help{background:transparent;color:#f4ead0bb;font-size:9px;letter-spacing:.07em;padding:5px 0;text-shadow:0 1px 3px #172b25}
+.first-person-game .fps-keypad button{border:1px solid #ead9b238;border-radius:3px;background:#17322a90;font-size:13px}
+.first-person-game .fps-crosshair{width:5px;height:5px;border-color:#fff6dcaa;background:#ffffff22;box-shadow:0 0 0 3px #17322a13}
+.first-person-game button:focus-visible{outline:2px solid #ffe4a6;outline-offset:3px}
+@media(max-width:800px){
+ .first-person-game .fps-top{padding:10px;gap:5px}
+ .first-person-game .fps-top .fps-world-label{display:none}
+ .first-person-game .fps-hint-toggle{left:10px;top:62px}
+ .first-person-game .fps-bottom{padding:35px 12px 65px}
+}

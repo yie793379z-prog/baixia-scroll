@@ -1,0 +1,79 @@
+/* Shared finishing pass: task browsing, readable play areas and compact laptop layouts. */
+button:focus-visible,a:focus-visible,summary:focus-visible{outline:2px solid #947247;outline-offset:4px}
+.paper-dialog:has(.travel-tasks){width:min(620px,96vw)}
+.travel-tasks .task-tabs{gap:0;justify-content:space-between;flex-wrap:wrap}
+.travel-tasks .task-tabs button{padding:12px 3px;min-height:44px;white-space:nowrap}
+.task-list-caption{display:flex;justify-content:space-between;font:10px/1.8 sans-serif;color:#8b785c;padding:10px 0}
+.illustrated-task{display:grid;grid-template-columns:92px minmax(0,1fr) auto;padding:16px 0;gap:12px 15px;transition:background .15s}
+.illustrated-task>:is(img,video){width:92px;height:82px;object-fit:cover;filter:saturate(.8);border:1px solid #baaa8a;flex:none}
+.illustrated-task .task-copy{flex:1;min-width:0}
+.task-entry-actions{display:grid;gap:5px}
+.task-entry-actions button{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:44px;text-align:left;padding:7px 8px;border:1px solid transparent;background:transparent}
+.task-entry-actions button:hover{background:#e5d6b9}
+.multi-entry-task .task-copy{grid-column:2/-1}
+.multi-entry-task .task-entry-actions{grid-column:2/-1;grid-template-columns:1.35fr 1fr}
+.multi-entry-task .task-entry-actions button{border-color:#c6b797;background:#f1e8d780}
+.task-entry-actions b{font:12px/1.7 sans-serif;color:#705c42}
+.task-entry-actions [data-task-completed=true] em{color:#526b4f}
+.travel-tasks .task-tabs{justify-content:flex-start;gap:38px}
+.illustrated-task strong{font-size:20px}
+.illustrated-task small{font-size:12px;color:#705c42;margin:7px 0 4px}
+.task-poem{display:block;white-space:nowrap;font:13px/1.9 var(--serif);color:#897455;margin-top:7px}
+.illustrated-task[data-task-completed=true] em{color:#526b4f}
+
+.quiz-activity .quiz-layout>figure{position:sticky;top:0}
+.quiz-verse{margin:14px 0;padding:18px 22px;border-left:2px solid #9c7950;background:#e9dfcc}
+.quiz-verse p{white-space:pre-line;font:20px/1.85 var(--serif);margin:0;color:#514431}
+.quiz-verse cite{display:block;font:11px/1.8 sans-serif;margin-top:10px;color:#897659}
+.quiz-picture-clue{font:14px/1.9 var(--serif);padding:10px 0}
+.quiz-picture-clue b{display:block;font:11px/2 sans-serif;color:#897659;letter-spacing:2px;margin-bottom:4px}
+.quiz-discoveries{padding-left:22px;line-height:2;font-size:14px;color:#536348}
+.quiz-progress{display:flex;gap:5px;margin:8px 0 18px}
+.quiz-progress span{height:3px;flex:1;background:#d9ccb5}
+.quiz-progress .passed{background:#647b58}
+.quiz-options button{min-height:52px;border:1px solid #c6b797;transition:background .15s,border-color .15s}
+.quiz-options button:not(:disabled):hover{background:#ede3cf;border-color:#9c7950}
+.quiz-options button.try-again{border-color:#b47a62;background:#f1e0d0}
+.quiz-feedback{animation:quiet-arrival .22s ease both}
+@keyframes quiet-arrival{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:translateY(0)}}
+.activity-switch{padding-right:110px;flex-wrap:wrap;gap:6px}
+.activity-switch button{min-height:38px}
+.game-scrim{padding:48px 18px 14px}
+.paper-dialog.game-dialog:has(.first-person-game){width:min(1440px,98vw);padding:18px 24px 12px}
+.first-person-game{height:clamp(390px,calc(100dvh - 220px),720px);border:1px solid #a9a78e;border-radius:2px}
+.fps-top{inset:0 0 auto;padding:14px 16px 30px;gap:8px}
+.fps-bottom{left:0;right:0;bottom:0;padding:48px 18px 70px;gap:14px}
+.fps-bottom>div:first-child{max-width:62%;padding:5px 12px}
+.fps-actions{max-width:38%}
+.fps-actions button{min-height:42px;padding:10px 13px}
+.fps-help{left:18px;bottom:18px;font-size:10px;max-width:calc(100% - 210px)}
+.fps-keypad{right:18px;bottom:14px}
+.fps-keypad button{width:40px;height:38px}
+.fps-top .fps-look{display:flex;align-items:center;gap:6px;background:#203832b8;color:#fff1d1;padding:6px 9px;pointer-events:auto}
+.fps-look input{width:66px;accent-color:#d1b477}
+.fps-hint-toggle{position:absolute;left:16px;top:60px;color:#fff1d1;background:#203832b8;padding:7px 10px;font-size:11px}
+.first-person-game.compact-hints .fps-bottom>div:first-child{display:none}
+.first-person-game.compact-hints .fps-bottom{justify-content:flex-end;pointer-events:none;background:none}
+.fps-reference{z-index:2;max-width:40%;top:64px}
+.magnifier-aim{position:absolute;width:9px;height:9px;border:1px solid #f3e6c8;box-shadow:0 0 0 1px #6d523b;border-radius:50%;transform:translate(-50%,-50%);pointer-events:none}
+.magnifying-glass{box-shadow:0 5px 22px #271c2860,inset 0 0 0 2px #f2dfb2}
+@media(max-width:800px){
+ .illustrated-task>:is(img,video){width:74px;height:74px}.illustrated-task{grid-template-columns:74px minmax(0,1fr) auto;gap:10px 12px}
+ .travel-tasks .task-tabs button{font-size:12px}.quiz-activity .quiz-layout>figure{position:static}
+ .quiz-layout{gap:18px}.quiz-layout :is(img,video){max-height:30vh}.quiz-layout h3{font-size:20px}
+ .paper-dialog.game-dialog:has(.first-person-game){padding:16px 10px 10px}
+ .first-person-game{height:clamp(390px,calc(100dvh - 245px),620px)}
+ .fps-top{padding:10px;flex-wrap:wrap}.fps-top>span{display:none}.fps-look input{width:45px}
+ .fps-bottom{padding:40px 10px 66px;gap:8px}.fps-bottom>div:first-child{max-width:55%;padding:5px 8px}
+ .fps-bottom p{font-size:12px!important}.fps-bottom small{display:none}.fps-actions{max-width:45%;gap:5px}
+ .fps-actions button{font-size:11px;padding:8px}.fps-help{display:none}.fps-keypad{right:10px;bottom:12px}
+ .activity-switch{padding-right:55px}.activity-switch button{font-size:10px;padding:8px}
+}
+@media(prefers-reduced-motion:reduce){.quiz-feedback{animation:none}.illustrated-task,.quiz-options button{transition:none}}
+.reduce-motion .quiz-feedback{animation:none}
+.paper-dialog.game-dialog:has(.first-person-game){height:min(960px,calc(100dvh - 64px));max-height:calc(100dvh - 64px);display:flex;flex-direction:column;overflow:hidden}
+.linked-activity:has(.first-person-game),.workshop:has(.first-person-game),.game-play:has(.first-person-game){display:flex;flex-direction:column;flex:1;min-height:0}
+.linked-activity:has(.first-person-game) .activity-switch,.workshop:has(.first-person-game) .workshop-heading,.workshop:has(.first-person-game) .workshop-footer{flex:none}
+.game-play:has(.first-person-game) .first-person-game{height:100%;min-height:0;flex:1}
+.workshop:has(.first-person-game) .workshop-heading h2{margin:5px 0 10px}
+.linked-activity:has(.first-person-game) .activity-switch{margin:0 0 12px;padding-bottom:10px}

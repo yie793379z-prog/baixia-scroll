@@ -1,0 +1,938 @@
+{
+  "version": "1.0",
+  "artwork_id": "fengning_1794",
+  "canvas_master_size_px": [
+    132458,
+    4146
+  ],
+  "image_coordinates_reference": "在本机读取冯宁完整TIF，源图坐标原点在左上；所有热点world_x/world_y为null，待真实画面人工审核后写入",
+  "sources": {
+    "P2015": {
+      "name": "周安庆、张宏《〈宋院本金陵图〉及其清代仿本初探》",
+      "type": "user_pdf",
+      "locator": "《中国书画报》2015-08-12，第5版",
+      "url": "",
+      "scope": "以杨大章版为例；有作者推断，不能跨版当图像证据"
+    },
+    "P201X": {
+      "name": "张宏、周安庆《宋代金陵社会生活的文化缩影——清代〈仿宋院本金陵图〉研析》",
+      "type": "user_pdf",
+      "locator": "原刊第44–47页（用户另附4页PDF）",
+      "url": "",
+      "scope": "主要讨论杨大章版"
+    },
+    "DEJI_ART": {
+      "name": "德基艺术博物馆《仿宋院本金陵图》（冯宁藏品）",
+      "type": "museum",
+      "locator": "官方馆藏说明",
+      "url": "https://www.dejiart.com/artwork/fangyangdazhanghuasongyuanbenjinlingtu/",
+      "scope": "冯宁版身份、1794、533人物、90动物、三部分"
+    },
+    "DEJI_NIE": {
+      "name": "聂崇正《冯宁画〈宋院本金陵图〉卷》",
+      "type": "museum_research",
+      "locator": "德基艺术博物馆专题文章",
+      "url": "https://www.dejiart.com/research/fengninghuafangyangdazhanghuasongyuanbenjinlingtujuan-2/",
+      "scope": "冯宁版传承、1794、街市与水门及宫廷档案"
+    },
+    "DEJI_LIANG": {
+      "name": "梁白泉《读冯宁〈金陵图〉》",
+      "type": "museum_research",
+      "locator": "德基艺术博物馆专题文章",
+      "url": "https://www.dejiart.com/research/dufengningjinlingtu-2/",
+      "scope": "冯宁版瓮城、纺车、汲水、家庭生活等场景线索；需原图复核"
+    },
+    "DEJI_QIU": {
+      "name": "邱士华《寻找失落的图像》",
+      "type": "museum_research",
+      "locator": "德基艺术博物馆专题文章",
+      "url": "https://www.dejiart.com/research/xunzhaoshiluodetuxiang-congxiesuiyangdazhangyufengningdejinlingtuxiangxiangsongyuanbenjinlingtu/",
+      "scope": "1787/1791/1794摹本与祖本争议"
+    },
+    "NPM_YANG": {
+      "name": "台北故宫《清杨大章仿宋院本金陵图 卷》",
+      "type": "official_collection",
+      "locator": "藏品编号 故画001732N000000000",
+      "url": "https://digitalarchive.npm.gov.tw/Collection/Detail/5726?dep=P",
+      "scope": "杨大章版1791年、纸本、34.1×1088.3厘米、画中主题"
+    },
+    "NANJING_HIST": {
+      "name": "周运中《“金陵”图中觅风华》",
+      "type": "local_history",
+      "locator": "南京市地方志工作办公室，2025-04-29",
+      "url": "https://dfz.nanjing.gov.cn/gzdt/202504/t20250429_5138410.html",
+      "scope": "冯宁版城门、水路与空间识读；观点未必是学界共识"
+    }
+  },
+  "audit": [
+    [
+      "清代有谢遂、杨大章、冯宁三个现存相关摹本；年代分别1787、1791、1794",
+      "已交叉核验",
+      "P2015（涉及前二者）；DEJI_QIU；NPM_YANG；DEJI_ART",
+      "可做时间线标准题",
+      "冯宁并非宋代画家。"
+    ],
+    [
+      "冯宁版创作于1794年，馆藏德基艺术博物馆",
+      "馆方核验",
+      "DEJI_ART；DEJI_NIE",
+      "可用",
+      "不要写成1791或把杨版信息复制过来。"
+    ],
+    [
+      "《宋院本金陵图》祖本已散佚",
+      "多方支持",
+      "P2015；DEJI_QIU；DEJI_NIE",
+      "可用，但不把“宋代创作”作为无争议的断言",
+      "“宋院本”是传统著录名称，真实年代仍有研究讨论。"
+    ],
+    [
+      "杨大章版是1791年，台北故宫馆藏",
+      "馆方核验",
+      "P2015；NPM_YANG",
+      "可用",
+      "这不是我们当前游戏的主画。"
+    ],
+    [
+      "杨大章版质地为“绢本”",
+      "存在明确冲突",
+      "P2015称绢本；NPM_YANG登记本幅“纸”",
+      "禁止做标准答案；知识库注明来源冲突",
+      "正式采用馆方登记“纸本”，原文照录不改写。"
+    ],
+    [
+      "冯宁版画中533人、90动物",
+      "馆方核验",
+      "DEJI_ART",
+      "可用作趣味数据卡",
+      "不能把数字应用于杨大章版；用户不必真的数出533。"
+    ],
+    [
+      "从右到左展开，乡野—街市—水乡/郊外",
+      "跨来源吻合",
+      "DEJI_ART；DEJI_QIU；NPM_YANG",
+      "可作全卷探索主轴",
+      "仅作宏观结构；微观热点顺序由实际画面决定。"
+    ],
+    [
+      "冯宁版画中有纺车、井边汲水、小儿为长辈捶背",
+      "冯宁专题研究支持，尚待母版定位",
+      "DEJI_LIANG",
+      "可列为强候选；未找到坐标前不上线",
+      "每一细节必须在实际冯宁TIF上核验。"
+    ],
+    [
+      "冯宁版描绘市集、行人、商铺、河流通过的水门",
+      "馆藏及专题支持，尚待母版定位",
+      "DEJI_ART；DEJI_NIE",
+      "可列为强候选",
+      "具体店铺名称、招牌样式不可借用杨版。"
+    ],
+    [
+      "杨大章版人物约四百四十余人",
+      "论文作者的估算",
+      "P2015",
+      "只作版本比较说明",
+      "不得误写成冯宁版人物数。"
+    ],
+    [
+      "杨大章可能在末尾自行增绘捕鱼，祖本或无此景",
+      "论文作者推测，未证实",
+      "P2015",
+      "仅作为学术争议案例",
+      "绝不能作为冯宁版的确定事实或坐标。"
+    ],
+    [
+      "杨版龙光门位置与文献不符、作者可能调整构图",
+      "论文推测；历史地理存在不同考证",
+      "P2015；NANJING_HIST",
+      "适合多证据辨析，不做唯一答案题",
+      "冯宁版具体城门也需在原画核查。"
+    ],
+    [
+      "宋代金陵户数由61690升至168463，总人口六七十万",
+      "仅论文引述，未复核统计口径",
+      "P2015",
+      "本轮不纳入题库",
+      "两组史料可能包含不一致行政范围与时段。"
+    ],
+    [
+      "1922年《宋院本金陵图》赏溥杰，意味着祖本当时仍存",
+      "需要核对档案对象",
+      "P2015；DEJI_NIE",
+      "暂不纳入传播知识点",
+      "聂崇正另提冯宁卷于1922年以赏赐名义流散，需区分同名卷。"
+    ]
+  ],
+  "cards": [
+    {
+      "id": "K01",
+      "title": "三卷一脉：谁画了我们眼前的金陵？",
+      "scope": "fengning_1794",
+      "section_hint": "全局/序幕与尾声",
+      "publication_status": "global_verified_no_hotspot",
+      "hotspot": {
+        "world_x": null,
+        "world_y": null,
+        "bounds": null,
+        "crop_file": null,
+        "screenshot_evidence": null,
+        "approved_by_human": false
+      },
+      "visual_search_hint": "玩家在序幕查看版本名称，不依赖画中人物",
+      "source_basis": "P2015提谢遂、杨大章；德基研究补充冯宁；多方日期一致",
+      "learning_goal": "区分原本、杨大章版与冯宁版",
+      "interaction": {
+        "type": "timeline_sort",
+        "steps": [
+          "出现三张作者年代卡：谢遂1787、杨大章1791、冯宁1794",
+          "拖动按创作先后排序",
+          "完成后收起为一段60字的版本背景"
+        ],
+        "exit_behavior": "Esc/关闭恢复进入前原画横向位置和固定倍率；记入行旅簿"
+      },
+      "micro_quiz": {
+        "prompt": "我们正在游玩的冯宁版完成于哪一年？",
+        "options": [
+          "1787年",
+          "1791年",
+          "1794年"
+        ],
+        "answer_index": 2,
+        "feedback": "冯宁版完成于1794年；杨大章版是1791年，谢遂版是1787年。"
+      },
+      "source_ids": [
+        "DEJI_QIU",
+        "DEJI_ART",
+        "NPM_YANG",
+        "P2015"
+      ],
+      "disclosure": "版本事实，可做标准题。",
+      "priority": "P0",
+      "extra_notes": "",
+      "image_evidence": "global_verified_no_hotspot"
+    },
+    {
+      "id": "K02",
+      "title": "画卷从哪里开始？",
+      "scope": "fengning_1794",
+      "section_hint": "全卷/右端",
+      "publication_status": "global_verified_no_hotspot",
+      "hotspot": {
+        "world_x": null,
+        "world_y": null,
+        "bounds": null,
+        "crop_file": null,
+        "screenshot_evidence": null,
+        "approved_by_human": false
+      },
+      "visual_search_hint": "长卷最右端，玩家开始拖动原画",
+      "source_basis": "馆藏研究一致说明长卷从右向左阅读，内容先乡野后街市",
+      "learning_goal": "理解中国长卷徐徐展开的观看方法",
+      "interaction": {
+        "type": "look_drag",
+        "steps": [
+          "进入游戏看到画面最右端",
+          "提示“按住画卷向右拖动，继续向左观看”后淡出",
+          "不再弹出新手教学遮罩"
+        ],
+        "exit_behavior": "Esc/关闭恢复进入前原画横向位置和固定倍率；记入行旅簿"
+      },
+      "micro_quiz": {
+        "prompt": "观看这幅长卷，传统的展开方向是？",
+        "options": [
+          "由右向左",
+          "由左向右",
+          "从中间向两边"
+        ],
+        "answer_index": 0,
+        "feedback": "从画面右端开始，一路向左展开；操作时手指或鼠标可将画面向右拖动以观看更左侧内容。"
+      },
+      "source_ids": [
+        "DEJI_QIU",
+        "NPM_YANG"
+      ],
+      "disclosure": "卷轴阅读常识，必须与拖动手势描述相符。",
+      "priority": "P0",
+      "extra_notes": "",
+      "image_evidence": "global_verified_no_hotspot"
+    },
+    {
+      "id": "K03",
+      "title": "一城三景：乡野、街市、水乡",
+      "scope": "fengning_1794",
+      "section_hint": "全卷/跨区",
+      "publication_status": "global_verified_no_hotspot",
+      "hotspot": {
+        "world_x": null,
+        "world_y": null,
+        "bounds": null,
+        "crop_file": null,
+        "screenshot_evidence": null,
+        "approved_by_human": false
+      },
+      "visual_search_hint": "通过真实场景逐步发现，交互分布全卷",
+      "source_basis": "德基官方将冯宁版分为乡野、秦淮街市、郊野风光三部分",
+      "learning_goal": "理解城市与乡野、水路不是相互孤立的",
+      "interaction": {
+        "type": "progressive_map",
+        "steps": [
+          "每发现对应真实区域，在行旅簿点亮一个小小的图标",
+          "三个区域全部经过后显示卷内关系小图",
+          "点击图标只展示已解锁说明，不移动画卷"
+        ],
+        "exit_behavior": "Esc/关闭恢复进入前原画横向位置和固定倍率；记入行旅簿"
+      },
+      "micro_quiz": {
+        "prompt": "以下哪项最符合冯宁版长卷的整体结构？",
+        "options": [
+          "乡野、街市、郊野/水乡",
+          "宫廷、战场、皇陵",
+          "海港、雪山、沙漠"
+        ],
+        "answer_index": 0,
+        "feedback": "馆方将画卷概括为乡野、街市和郊野风光三个主要部分；细节位置仍以原画为准。"
+      },
+      "source_ids": [
+        "DEJI_ART",
+        "DEJI_QIU"
+      ],
+      "disclosure": "宏观结构已核，不等于局部区域起止坐标已核。",
+      "priority": "P0",
+      "extra_notes": "",
+      "image_evidence": "global_verified_no_hotspot"
+    },
+    {
+      "id": "K04",
+      "title": "纺轮一线：摇轮为什么不能忽快忽慢",
+      "scope": "fengning_1794",
+      "section_hint": "乡野/靠右区域优先检索",
+      "publication_status": "needs_image_confirmation",
+      "hotspot": {
+        "world_x": null,
+        "world_y": null,
+        "bounds": null,
+        "crop_file": null,
+        "screenshot_evidence": null,
+        "approved_by_human": false
+      },
+      "visual_search_hint": "优先定位真实的手摇纺车、纺者和线材；不要在别的轮状物上误落点",
+      "source_basis": "梁白泉明确在冯宁版举“手摇纺车”例",
+      "learning_goal": "观察传统纺纱劳动中旋转与牵引的协作",
+      "interaction": {
+        "type": "rhythm_spin",
+        "steps": [
+          "只在局部原画裁切上叠加微动，玩家按住/滑动让纺车转动",
+          "通过“过慢—稳定—过快”的轻规则观察游戏化纱线状态",
+          "成功展示真实画面局部与史实卡，不宣称转速数值是真实技术参数"
+        ],
+        "exit_behavior": "Esc/关闭恢复进入前原画横向位置和固定倍率；记入行旅簿"
+      },
+      "micro_quiz": {
+        "prompt": "画中手摇纺车最直接关联哪一种生活活动？",
+        "options": [
+          "纺纱",
+          "航船",
+          "铸钟"
+        ],
+        "answer_index": 0,
+        "feedback": "纺车与纺纱劳动相关。游戏的转速、断线规则是为了帮助理解协调操作而设计的模拟。"
+      },
+      "source_ids": [
+        "DEJI_LIANG"
+      ],
+      "disclosure": "画面存在获冯宁专题研究支持；具体操作机制为D级演绎。",
+      "priority": "P1",
+      "extra_notes": "",
+      "image_evidence": "requires_local_fengning_cropped_image_and_human_review"
+    },
+    {
+      "id": "K05",
+      "title": "井边一瓢：水从哪里来",
+      "scope": "fengning_1794",
+      "section_hint": "乡野/具体位置待找",
+      "publication_status": "needs_image_confirmation",
+      "hotspot": {
+        "world_x": null,
+        "world_y": null,
+        "bounds": null,
+        "crop_file": null,
+        "screenshot_evidence": null,
+        "approved_by_human": false
+      },
+      "visual_search_hint": "井口、汲水的人与盛水容器；确认是否有绳索或其他装置",
+      "source_basis": "梁白泉提到冯宁版“井中汲水”",
+      "learning_goal": "认识日常用水与劳动",
+      "interaction": {
+        "type": "precision_drag",
+        "steps": [
+          "点击井口后镜头局部聚焦",
+          "用鼠标向上拖动盛水器具（按原画能识别的工具决定交互）",
+          "装水完成后回到原画，标记“水与人家”"
+        ],
+        "exit_behavior": "Esc/关闭恢复进入前原画横向位置和固定倍率；记入行旅簿"
+      },
+      "micro_quiz": {
+        "prompt": "相比自动供水，画中汲水最能让你注意到什么？",
+        "options": [
+          "日常取水也需要劳动",
+          "井只能用来洗衣",
+          "所有古井都装有滑轮"
+        ],
+        "answer_index": 0,
+        "feedback": "重点是观察劳动；不能凭游戏动画推断所有古井都使用滑轮。"
+      },
+      "source_ids": [
+        "DEJI_LIANG"
+      ],
+      "disclosure": "工具、人物关系与装置需高清图确认。",
+      "priority": "P1",
+      "extra_notes": "",
+      "image_evidence": "requires_local_fengning_cropped_image_and_human_review"
+    },
+    {
+      "id": "K06",
+      "title": "一盏家常：画中的照料",
+      "scope": "fengning_1794",
+      "section_hint": "乡野/位置待找",
+      "publication_status": "needs_image_confirmation",
+      "hotspot": {
+        "world_x": null,
+        "world_y": null,
+        "bounds": null,
+        "crop_file": null,
+        "screenshot_evidence": null,
+        "approved_by_human": false
+      },
+      "visual_search_hint": "梁白泉提出小儿为长辈捶背的场景；需找到真实人物对应关系",
+      "source_basis": "冯宁版的家庭日常细节见梁白泉文章",
+      "learning_goal": "关注历史风俗画中的普通人和照料关系",
+      "interaction": {
+        "type": "scene_observe",
+        "steps": [
+          "以微弱墨迹描边标出两位人物，玩家观察动作",
+          "从画面可见的人物关系中选出最贴近的描述",
+          "使用30字暖色旁白，不扩写具体身世"
+        ],
+        "exit_behavior": "Esc/关闭恢复进入前原画横向位置和固定倍率；记入行旅簿"
+      },
+      "micro_quiz": {
+        "prompt": "此处最适合从哪一个角度理解古画？",
+        "options": [
+          "留意普通人的照料与生活",
+          "猜测两人真实姓名",
+          "断言这一家属于贵族"
+        ],
+        "answer_index": 0,
+        "feedback": "从已知研究描述可以关注家庭日常，但人物姓名、身份不能凭画面推断。"
+      },
+      "source_ids": [
+        "DEJI_LIANG"
+      ],
+      "disclosure": "不要借机灌输“所有古人都如此”的泛化结论。",
+      "priority": "P2",
+      "extra_notes": "",
+      "image_evidence": "requires_local_fengning_cropped_image_and_human_review"
+    },
+    {
+      "id": "K07",
+      "title": "城门有路：如何穿过瓮城",
+      "scope": "fengning_1794",
+      "section_hint": "接近城门/中段入口",
+      "publication_status": "needs_image_confirmation",
+      "hotspot": {
+        "world_x": null,
+        "world_y": null,
+        "bounds": null,
+        "crop_file": null,
+        "screenshot_evidence": null,
+        "approved_by_human": false
+      },
+      "visual_search_hint": "寻找真实城墙、门洞、甬道及可识别的转折",
+      "source_basis": "梁白泉指冯宁版绘瓮城；2015文作者描述的是杨版结构",
+      "learning_goal": "从建筑观察中理解城门的路径组织，不把二维画当工程图",
+      "interaction": {
+        "type": "draw_route",
+        "steps": [
+          "画面不离开长卷，开启半透明局部描线层",
+          "玩家沿实际看得见的门洞连线，不能跨墙",
+          "判定依据原画的可见通道，不根据论文擅设三道门"
+        ],
+        "exit_behavior": "Esc/关闭恢复进入前原画横向位置和固定倍率；记入行旅簿"
+      },
+      "micro_quiz": {
+        "prompt": "以下哪种方式最适合判断画中的通行路线？",
+        "options": [
+          "观察门洞与墙体，再核对史料",
+          "套用所有瓮城都是S形的模板",
+          "直接假定这是现代南京的某一座城门"
+        ],
+        "answer_index": 0,
+        "feedback": "画面路径可供观察，具体城门身份和历史复原仍须谨慎。"
+      },
+      "source_ids": [
+        "DEJI_LIANG",
+        "NANJING_HIST",
+        "P2015"
+      ],
+      "disclosure": "“S形三门”只在论文对杨版的描述里出现；不可预设冯版必然如此。",
+      "priority": "P1",
+      "extra_notes": "",
+      "image_evidence": "requires_local_fengning_cropped_image_and_human_review"
+    },
+    {
+      "id": "K08",
+      "title": "百业招徕：古人怎么让顾客看见店铺",
+      "scope": "fengning_1794",
+      "section_hint": "城内街市/候选",
+      "publication_status": "needs_image_confirmation",
+      "hotspot": {
+        "world_x": null,
+        "world_y": null,
+        "bounds": null,
+        "crop_file": null,
+        "screenshot_evidence": null,
+        "approved_by_human": false
+      },
+      "visual_search_hint": "店铺门脸、招牌或招幌；只读真实可见字形、外观，不从杨版移植“眼形药铺”",
+      "source_basis": "聂崇正描述冯宁版店铺与行人；其他论文概述杨版繁华街市",
+      "learning_goal": "观察商业空间中的视觉传播",
+      "interaction": {
+        "type": "visual_match",
+        "steps": [
+          "放大画内店面局部，并列2–3个从实际画中截出的符号",
+          "玩家根据形状与位置将符号拖回店面",
+          "反馈“为什么这一符号容易识别”；模拟路人只作玩法演示"
+        ],
+        "exit_behavior": "Esc/关闭恢复进入前原画横向位置和固定倍率；记入行旅簿"
+      },
+      "micro_quiz": {
+        "prompt": "要确认某个招幌属于哪家店，第一步应当？",
+        "options": [
+          "先看它在原画里的位置和文字/形状",
+          "凭现代常识给它随便命名",
+          "把别的版本招幌移过来"
+        ],
+        "answer_index": 0,
+        "feedback": "先认真观察画面证据，再进行文化解释。"
+      },
+      "source_ids": [
+        "DEJI_NIE",
+        "DEJI_ART",
+        "P2015"
+      ],
+      "disclosure": "具体商铺类型与招幌信息必须与冯宁本幅核对。",
+      "priority": "P1",
+      "extra_notes": "",
+      "image_evidence": "requires_local_fengning_cropped_image_and_human_review"
+    },
+    {
+      "id": "K09",
+      "title": "车马纷纷：一座城怎样流动",
+      "scope": "fengning_1794",
+      "section_hint": "乡野转入街市",
+      "publication_status": "needs_image_confirmation",
+      "hotspot": {
+        "world_x": null,
+        "world_y": null,
+        "bounds": null,
+        "crop_file": null,
+        "screenshot_evidence": null,
+        "approved_by_human": false
+      },
+      "visual_search_hint": "真实牛车、驴马、行人/轿舆的可辨对象",
+      "source_basis": "馆藏及聂崇正描述冯宁版舟车行人、旅者",
+      "learning_goal": "理解城市由不同交通方式和劳动连接",
+      "interaction": {
+        "type": "spot_and_link",
+        "steps": [
+          "找出三类实际存在的运输对象",
+          "按“人—运具—道路”把关系连起来",
+          "收集交通方式的观察卡，不设夸大运速数据"
+        ],
+        "exit_behavior": "Esc/关闭恢复进入前原画横向位置和固定倍率；记入行旅簿"
+      },
+      "micro_quiz": {
+        "prompt": "从这类古代街景中，最容易直接看出什么？",
+        "options": [
+          "交通方式并存",
+          "每辆车的精确载重",
+          "全城人口总数"
+        ],
+        "answer_index": 0,
+        "feedback": "绘画能呈现交通方式与活动场景，但不能据此得到精确运量。"
+      },
+      "source_ids": [
+        "DEJI_NIE",
+        "DEJI_ART"
+      ],
+      "disclosure": "只解释真实可见的关系，不赋予特定人物真实身世。",
+      "priority": "P2",
+      "extra_notes": "",
+      "image_evidence": "requires_local_fengning_cropped_image_and_human_review"
+    },
+    {
+      "id": "K10",
+      "title": "水门行舟：看见城市的另一条道路",
+      "scope": "fengning_1794",
+      "section_hint": "水乡/靠左区域优先检索",
+      "publication_status": "needs_image_confirmation",
+      "hotspot": {
+        "world_x": null,
+        "world_y": null,
+        "bounds": null,
+        "crop_file": null,
+        "screenshot_evidence": null,
+        "approved_by_human": false
+      },
+      "visual_search_hint": "河流经过水门、附近船只和岸边通行关系",
+      "source_basis": "聂崇正明确提冯宁版“河流通过的水门”，德基馆藏概述水乡",
+      "learning_goal": "理解城市水路与陆路的联系",
+      "interaction": {
+        "type": "route_boat",
+        "steps": [
+          "用户沿原画可见水道描一条航线",
+          "选择从何处转弯或停靠，需通过真实河道形态判断",
+          "通关播放几秒水波与船体轻动，恢复原画"
+        ],
+        "exit_behavior": "Esc/关闭恢复进入前原画横向位置和固定倍率；记入行旅簿"
+      },
+      "micro_quiz": {
+        "prompt": "水门场景最直接帮助我们理解什么？",
+        "options": [
+          "水路与城市相联系",
+          "古代船一定有发动机",
+          "秦淮每条河道都直通海洋"
+        ],
+        "answer_index": 0,
+        "feedback": "水门是连接水道和城防空间的重要线索，但每条实际河道的名称和方向仍需考证。"
+      },
+      "source_ids": [
+        "DEJI_NIE",
+        "DEJI_ART",
+        "NANJING_HIST"
+      ],
+      "disclosure": "不预设准确“秦淮水门”地名，须核文献与画中对应。",
+      "priority": "P1",
+      "extra_notes": "",
+      "image_evidence": "requires_local_fengning_cropped_image_and_human_review"
+    },
+    {
+      "id": "K11",
+      "title": "百态之数：533个人物从哪里来",
+      "scope": "fengning_1794",
+      "section_hint": "全卷/文化总览",
+      "publication_status": "global_verified_no_hotspot",
+      "hotspot": {
+        "world_x": null,
+        "world_y": null,
+        "bounds": null,
+        "crop_file": null,
+        "screenshot_evidence": null,
+        "approved_by_human": false
+      },
+      "visual_search_hint": "馆藏统计不需玩家逐个验证",
+      "source_basis": "德基艺术博物馆冯宁藏品说明给出533人物、90动物",
+      "learning_goal": "知道数量是现代馆方对某一版本的统计",
+      "interaction": {
+        "type": "number_compare",
+        "steps": [
+          "行旅簿“画中百态”页展示馆方数字",
+          "用户选择“数字属于哪个版本”",
+          "答对后出现画中群像局部的缩略截图（本机截取）"
+        ],
+        "exit_behavior": "Esc/关闭恢复进入前原画横向位置和固定倍率；记入行旅簿"
+      },
+      "micro_quiz": {
+        "prompt": "馆方所说的533个人物，统计的是哪一版？",
+        "options": [
+          "谢遂版",
+          "杨大章版",
+          "冯宁版"
+        ],
+        "answer_index": 2,
+        "feedback": "德基艺术博物馆对其所藏冯宁版作出这一统计；其他版本不能直接套用。"
+      },
+      "source_ids": [
+        "DEJI_ART"
+      ],
+      "disclosure": "该统计来自馆方，不是程序自动人脸识别。",
+      "priority": "P0",
+      "extra_notes": "",
+      "image_evidence": "global_verified_no_hotspot"
+    },
+    {
+      "id": "K12",
+      "title": "画里的人：繁华背后是谁",
+      "scope": "fengning_1794",
+      "section_hint": "街市/全卷累计",
+      "publication_status": "needs_image_confirmation",
+      "hotspot": {
+        "world_x": null,
+        "world_y": null,
+        "bounds": null,
+        "crop_file": null,
+        "screenshot_evidence": null,
+        "approved_by_human": false
+      },
+      "visual_search_hint": "工匠、行人、商贩、畜力运输等确实存在的人物动作",
+      "source_basis": "德基官方藏品介绍与聂崇正描述社会阶层",
+      "learning_goal": "从具体可见动作理解普通人的多样生活",
+      "interaction": {
+        "type": "collect_labor",
+        "steps": [
+          "玩家收集3种不同劳动动作的画中局部",
+          "每收集一项只用40字解释可见活动",
+          "行旅簿出现“繁华由谁构成”一段可追溯总结"
+        ],
+        "exit_behavior": "Esc/关闭恢复进入前原画横向位置和固定倍率；记入行旅簿"
+      },
+      "micro_quiz": {
+        "prompt": "想了解画中一个普通人，最可靠的第一步是？",
+        "options": [
+          "先观察他的动作和周围器物",
+          "先编出他的姓名和职业传奇",
+          "直接判定其家庭财产"
+        ],
+        "answer_index": 0,
+        "feedback": "从画面细节出发再做审慎解释，避免把想象当作档案。"
+      },
+      "source_ids": [
+        "DEJI_ART",
+        "DEJI_NIE"
+      ],
+      "disclosure": "人物性格、姓名、心理和个人履历全部属于创作演绎。",
+      "priority": "P2",
+      "extra_notes": "",
+      "image_evidence": "requires_local_fengning_cropped_image_and_human_review"
+    },
+    {
+      "id": "K13",
+      "title": "署款之谜：这是宋人亲手画的吗",
+      "scope": "fengning_1794",
+      "section_hint": "卷尾题款/若能看清",
+      "publication_status": "needs_image_confirmation",
+      "hotspot": {
+        "world_x": null,
+        "world_y": null,
+        "bounds": null,
+        "crop_file": null,
+        "screenshot_evidence": null,
+        "approved_by_human": false
+      },
+      "visual_search_hint": "在冯宁图卷尾定位署款，原画可见文字需人工逐字校对",
+      "source_basis": "聂崇正记录冯宁款署1794；祖本已佚",
+      "learning_goal": "区分画作创作年代与其试图表现的历史时代",
+      "interaction": {
+        "type": "inscription_detect",
+        "steps": [
+          "聚焦卷尾款署，由玩家逐字观察",
+          "给出三张“祖本—杨大章摹本—冯宁摹本”关系卡",
+          "分类这些是“画面可见、文献描述、作者推测”"
+        ],
+        "exit_behavior": "Esc/关闭恢复进入前原画横向位置和固定倍率；记入行旅簿"
+      },
+      "micro_quiz": {
+        "prompt": "看到冯宁版的1794年款署，最准确的说法是？",
+        "options": [
+          "它由1794年的清代画师完成",
+          "这就证明画中一切发生于1794年",
+          "它必然直接写生自宋代南京"
+        ],
+        "answer_index": 0,
+        "feedback": "画成于1794年，不等于画中生活场景发生于1794年，也不等于原始图像毫无变化。"
+      },
+      "source_ids": [
+        "DEJI_NIE",
+        "DEJI_ART",
+        "DEJI_QIU"
+      ],
+      "disclosure": "款署字样须按原画逐字核对，勿用其他版本题款。",
+      "priority": "P1",
+      "extra_notes": "",
+      "image_evidence": "requires_local_fengning_cropped_image_and_human_review"
+    },
+    {
+      "id": "K14",
+      "title": "画外有疑：历史图像不是照片",
+      "scope": "fengning_1794",
+      "section_hint": "全局/终章",
+      "publication_status": "global_verified_no_hotspot",
+      "hotspot": {
+        "world_x": null,
+        "world_y": null,
+        "bounds": null,
+        "crop_file": null,
+        "screenshot_evidence": null,
+        "approved_by_human": false
+      },
+      "visual_search_hint": "从真实画面进入考据层，无需伪造历史场景",
+      "source_basis": "邱士华讨论摹本传承与祖本年代；论文对增绘、城门作推测",
+      "learning_goal": "学习把画面、文献、推断、游戏叙事分开",
+      "interaction": {
+        "type": "evidence_sort",
+        "steps": [
+          "提供四张卡：“冯宁版1794”“画中有水门”“杨本捕鱼疑似增绘”“见微为店中账房”",
+          "玩家分别投入“馆藏/图像事实”“文献考证”“学术推测”“游戏演绎”",
+          "显示每张卡的来源和为什么不能一概而论"
+        ],
+        "exit_behavior": "Esc/关闭恢复进入前原画横向位置和固定倍率；记入行旅簿"
+      },
+      "micro_quiz": {
+        "prompt": "下面哪项属于我们为了游戏创造的设定？",
+        "options": [
+          "冯宁版完成于1794年",
+          "“见微”是接到采办任务的客店账房",
+          "德基藏冯宁版"
+        ],
+        "answer_index": 1,
+        "feedback": "“见微”的身份和任务是游戏创作，并非画中有真实姓名的历史人物。"
+      },
+      "source_ids": [
+        "DEJI_QIU",
+        "DEJI_NIE",
+        "DEJI_ART",
+        "P2015"
+      ],
+      "disclosure": "把该游戏设为全篇终章或行旅簿中的可选深读。",
+      "priority": "P0",
+      "extra_notes": "",
+      "image_evidence": "global_verified_no_hotspot"
+    },
+    {
+      "id": "R01",
+      "title": "杨版材质：原文与馆藏为什么不同",
+      "scope": "fengning_1794",
+      "section_hint": "考据资料馆/非画中热点",
+      "publication_status": "research_only_no_hotspot",
+      "hotspot": {
+        "world_x": null,
+        "world_y": null,
+        "bounds": null,
+        "crop_file": null,
+        "screenshot_evidence": null,
+        "approved_by_human": false
+      },
+      "visual_search_hint": "仅在研究文献页面呈现，不绑定冯宁图像",
+      "source_basis": "报纸论文写“绢本设色”，台北故宫杨大章馆藏页面记“纸”",
+      "learning_goal": "学会优先核查馆藏登记并保留来源差异",
+      "interaction": {
+        "type": "source_compare",
+        "steps": [
+          "并排展示论文“绢本”和馆方“纸”两条来源摘录（尽量简短）",
+          "让玩家选“现阶段怎样描述才谨慎”",
+          "展示以故宫官方登记为准的处理原则"
+        ],
+        "exit_behavior": "Esc/关闭恢复进入前原画横向位置和固定倍率；记入行旅簿"
+      },
+      "micro_quiz": {
+        "prompt": "如果论文与馆藏档案的材质表述不一致，首先应该？",
+        "options": [
+          "查对馆方正式登记并注明文献分歧",
+          "直接选较华丽的表述",
+          "删除所有来源"
+        ],
+        "answer_index": 0,
+        "feedback": "官方馆藏页面将杨大章本幅列为纸；论文写绢。我们保留冲突，不擅自更改原文。"
+      },
+      "source_ids": [
+        "P2015",
+        "NPM_YANG"
+      ],
+      "disclosure": "仅杨大章版，绝不可用于冯宁版材质竞猜。",
+      "priority": "P3",
+      "extra_notes": "",
+      "image_evidence": "research_only_no_hotspot"
+    },
+    {
+      "id": "R02",
+      "title": "一段捕鱼，是画家的创意吗",
+      "scope": "fengning_1794",
+      "section_hint": "考据资料馆/非画中热点",
+      "publication_status": "research_only_no_hotspot",
+      "hotspot": {
+        "world_x": null,
+        "world_y": null,
+        "bounds": null,
+        "crop_file": null,
+        "screenshot_evidence": null,
+        "approved_by_human": false
+      },
+      "visual_search_hint": "对谢遂/杨大章不同结尾的比较，不强制在冯宁图上寻找",
+      "source_basis": "报纸作者认为杨大章或在结尾新增捕鱼，但以推测表达",
+      "learning_goal": "理解学术假说不等于已证实的历史",
+      "interaction": {
+        "type": "hypothesis_compare",
+        "steps": [
+          "展示“杨版有/谢遂版无”的论文主张与祖本已佚事实",
+          "让玩家选择“能否确认原本也无捕鱼”",
+          "答后显示证据不充分，保留开放问题"
+        ],
+        "exit_behavior": "Esc/关闭恢复进入前原画横向位置和固定倍率；记入行旅簿"
+      },
+      "micro_quiz": {
+        "prompt": "既然祖本失传，我们能否确认它原来没有捕鱼场景？",
+        "options": [
+          "可以，论文作者推测就是定论",
+          "不能，仅凭两幅摹本不能最终确定",
+          "这证明冯宁画了同一捕鱼场景"
+        ],
+        "answer_index": 1,
+        "feedback": "这是论文作者的推断，并非通过祖本比对核实的结论。"
+      },
+      "source_ids": [
+        "P2015",
+        "DEJI_QIU"
+      ],
+      "disclosure": "不作为冯宁原画已发现的热点，勿在主线强制解锁。",
+      "priority": "P3",
+      "extra_notes": "",
+      "image_evidence": "research_only_no_hotspot"
+    },
+    {
+      "id": "R03",
+      "title": "城门究竟是哪一座",
+      "scope": "fengning_1794",
+      "section_hint": "城门考据层/待实际定位",
+      "publication_status": "research_only_no_hotspot",
+      "hotspot": {
+        "world_x": null,
+        "world_y": null,
+        "bounds": null,
+        "crop_file": null,
+        "screenshot_evidence": null,
+        "approved_by_human": false
+      },
+      "visual_search_hint": "只有在冯宁实际城门附近标注已审定论文观点；暂无决定性答案",
+      "source_basis": "论文解释杨版城门；南京地方史研究对冯版门向有讨论",
+      "learning_goal": "认识史学解释需要地理、地图和画面综合验证",
+      "interaction": {
+        "type": "compare_arguments",
+        "steps": [
+          "显示“论文中的杨版门位”与“南京地方史对冯版的解释”",
+          "对每条观点标出作者和证据类别",
+          "要求玩家选出“目前仍需比较史料和画面”的结论"
+        ],
+        "exit_behavior": "Esc/关闭恢复进入前原画横向位置和固定倍率；记入行旅簿"
+      },
+      "micro_quiz": {
+        "prompt": "研究者对画卷城门方位有不同解释时，怎样处理最好？",
+        "options": [
+          "在游戏里只留下唯一答案",
+          "并列文献证据，暂不武断定论",
+          "凭感觉给城门命名"
+        ],
+        "answer_index": 1,
+        "feedback": "地图、画面与版本差异都可能改变判断；文化作品应如实呈现争议。"
+      },
+      "source_ids": [
+        "P2015",
+        "NANJING_HIST"
+      ],
+      "disclosure": "不在冯宁原画硬标“东门”“南门”等名称直至核验。",
+      "priority": "P3",
+      "extra_notes": "",
+      "image_evidence": "research_only_no_hotspot"
+    }
+  ]
+}

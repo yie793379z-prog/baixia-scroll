@@ -1,0 +1,46 @@
+/* 古絹石綠 — scoped to scroll controls and non-game panels only. */
+.minimal-hud,.scene-marker,.scroll-progress,.magnifier-layer,
+.paper-dialog:not(.game-dialog),.error-card,.save-warning,.subtle-loading,.transition-note{
+  --paper:#e9ddc6;--ink:#373b32;--green:#697568;--brown:#9c8263;--red:#a64e3c;
+  --muted:#697568;--line:#9c826366;
+  color:var(--ink);
+}
+.minimal-hud{background:#e9ddc6f2;border-bottom-color:var(--line);box-shadow:0 2px 12px #373b3214}
+.minimal-hud button[aria-pressed=true],.minimal-hud [data-testid=tasks-toggle],.minimal-hud small{color:var(--red)}
+.minimal-hud button:hover{color:var(--red)}
+.scroll-progress{background:#9c826366}
+.scroll-progress>span{background:var(--green)}
+.scene-marker{width:44px;height:44px;font-size:20px;color:var(--paper);background:#697568ed;border:1px solid var(--paper);box-shadow:0 0 0 3px #373b3226,0 3px 9px #373b3229}
+.scene-marker[data-scene-id^=q_]{background:#a64e3ced}
+.scene-marker span{top:50px;font-size:11px;padding:5px 8px;color:var(--ink);background:#e9ddc6f2;border:1px solid var(--line)}
+.dialog-scrim:not(.game-scrim){background:#373b322e}
+.paper-dialog:not(.game-dialog){background:var(--paper);border-color:var(--line);box-shadow:0 18px 65px #373b3238}
+.paper-dialog:not(.game-dialog) :is(h2,h3,p,.travel-reply,.name-field){color:var(--ink)}
+.paper-dialog:not(.game-dialog) :is(.eyebrow,.close,.book-subtitle,.task-list-caption,.task-poem){color:var(--green)!important}
+.paper-dialog:not(.game-dialog) :is(a,.text-button,.travel-task em,.review-records h4){color:var(--red)}
+.paper-dialog:not(.game-dialog) :is(.notebook-tabs,.task-tabs){border-color:var(--line);color:var(--green)}
+.paper-dialog:not(.game-dialog) :is(.notebook-tabs,.task-tabs) [aria-pressed=true]{color:var(--red);border-color:var(--red)}
+.paper-dialog:not(.game-dialog) .review-records blockquote{border-color:var(--brown);color:var(--ink)}
+.paper-dialog:not(.game-dialog) .notebook-poetry-context{color:var(--green)}
+.paper-dialog:not(.game-dialog) .travel-task:hover,
+.paper-dialog:not(.game-dialog) .task-entry-actions button:hover{background:#69756814}
+.paper-dialog:not(.game-dialog) .multi-entry-task .task-entry-actions button{background:#6975680d;border-color:var(--line)}
+.paper-dialog:not(.game-dialog) :is(.task-entry-actions b,.illustrated-task small){color:var(--ink)}
+.paper-dialog:not(.game-dialog) [data-task-completed=true] em{color:var(--green)}
+.paper-dialog:not(.game-dialog) .illustrated-task>:is(img,video){border-color:var(--brown)}
+.paper-dialog:not(.game-dialog) .name-field input{color:var(--ink);border-color:var(--brown);background:#e9ddc680}
+.paper-dialog:not(.game-dialog) .primary{color:var(--paper);background:var(--green)}
+.paper-dialog:not(.game-dialog) .primary:hover{background:var(--ink)}
+:is(.minimal-hud,.paper-dialog:not(.game-dialog),.magnifier-controls) :is(button,input,a,summary):focus-visible,
+.scene-marker:focus-visible{outline-color:var(--red)}
+.magnifier-tool,.magnifier-options{background:#e9ddc6f2;color:var(--ink);border-color:var(--brown);box-shadow:0 3px 18px #373b3226}
+.magnifier-tool svg{stroke:var(--ink)}
+.magnifier-tool.picked-up{background:var(--green);color:var(--paper)}
+.magnifier-tool.picked-up svg{stroke:var(--paper)}
+.magnifier-options button[aria-pressed=true]{border-color:var(--red);color:var(--red)}
+.magnifier-power{background:#e9ddc6e6;color:var(--ink)}
+.magnifier-loading{color:var(--ink)}
+.magnifying-glass{background:var(--paper);box-shadow:0 0 0 3px var(--green),0 0 0 6px var(--brown),0 12px 35px #373b3266}
+.magnifying-glass:after{background:linear-gradient(90deg,var(--ink),var(--brown),var(--ink))}
+.magnifier-aim{border-color:var(--paper);box-shadow:0 0 0 1px var(--ink)}
+.error-card,.save-warning,.subtle-loading,.transition-note{background:#e9ddc6f2;border-color:var(--line)}

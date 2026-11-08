@@ -1,0 +1,12 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="theme-color" content="#eeeadf"/><meta name="description" content="白下行卷：沿冯宁《仿宋院本金陵图》从右向左，细看一卷人间。"/><link rel="icon" href="/favicon.svg"/><title>白下行卷 · 一卷人间</title></head><body><audio id="background-music" src="/audio/jinling-yimeng.mp3" loop preload="auto" hidden data-testid="background-music" data-playback="waiting"></audio><script>
+(()=>{
+ const audio=document.getElementById('background-music');
+ try{const p=JSON.parse(localStorage.getItem('baixia-background-music-v1')||'null');audio.volume=p?.volumeVersion===2&&Number.isFinite(p.volume)?Math.max(0,Math.min(1,p.volume)):.6;}catch{audio.volume=.6;}
+ const play=()=>{if(!document.hidden&&audio.paused)audio.play().catch(()=>{});};
+ const gesture=e=>{if(e.isTrusted)play();};
+ window.addEventListener('pointerdown',gesture,{passive:true});window.addEventListener('keydown',gesture);
+ window.addEventListener('baixia:music-managed',()=>{window.removeEventListener('pointerdown',gesture);window.removeEventListener('keydown',gesture);},{once:true});
+ audio.addEventListener('playing',()=>{audio.dataset.firstPlayingMs=performance.now().toFixed(0);},{once:true});
+ play();
+})();
+</script><div id="root"></div><script type="module" src="/src/main.tsx"></script></body></html>

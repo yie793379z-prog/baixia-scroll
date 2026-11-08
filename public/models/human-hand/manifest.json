@@ -1,0 +1,65 @@
+{
+  "file": "right-hand-7be73f8b31b2.glb",
+  "bytes": 887960,
+  "vertices": 6733,
+  "polygons": 6712,
+  "source": "https://opengameart.org/content/fps-arms-rigged-only",
+  "author": "para; original mesh and skin by MakeHuman",
+  "license": "CC0-1.0",
+  "changes": "Right hand extracted, canonical grip frame, one baked subdivision, retained-resolution UV crop, cylinder-aware FK grip animation",
+  "bailRadius": 0.0135,
+  "fingers": [
+    {
+      "finger": "index",
+      "angles": [
+        0.585,
+        1.2033333333333334,
+        2.425
+      ],
+      "axisClearance": [
+        0.021266953889019377,
+        0.01957625190505655,
+        0.0184333359666717
+      ]
+    },
+    {
+      "finger": "middle",
+      "angles": [
+        0.554,
+        1.586666666666667,
+        2.7583333333333333
+      ],
+      "axisClearance": [
+        0.020655387680220502,
+        0.019758798568410046,
+        0.018421855704000293
+      ]
+    },
+    {
+      "finger": "ring",
+      "angles": [
+        0.43000000000000005,
+        1.0883333333333334,
+        2.2583333333333333
+      ],
+      "axisClearance": [
+        0.02213972537793962,
+        0.019533438544406735,
+        0.018445853129538826
+      ]
+    },
+    {
+      "finger": "pinky",
+      "angles": [
+        0.12,
+        2.2,
+        2.5083333333333333
+      ],
+      "axisClearance": [
+        0.026454873382795518,
+        0.017677446351865574,
+        0.01753948736353467
+      ]
+    }
+  ]
+}

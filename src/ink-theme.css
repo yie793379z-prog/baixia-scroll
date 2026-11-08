@@ -1,0 +1,314 @@
+/* Local ink study. All imagery, gameplay, camera and media behavior stay in their
+   existing components; this layer supplies the shared paper-and-ink vocabulary. */
+:root {
+  --serif: "Songti SC", "STSong", "Noto Serif CJK SC", "SimSun", serif;
+  --brush: "Kaiti SC", "STKaiti", "KaiTi", var(--serif);
+  --ink: #293b36;
+  --paper: #f5f3eb;
+  --muted: #72786e;
+  --red: #a04435;
+  --line: #293b3624;
+  --grain: url('/ui/paper-grain.svg');
+}
+.app :is(.minimal-hud,.scene-marker,.scroll-progress,.paper-dialog,.magnifier-layer,.error-card,.save-warning,.subtle-loading,.transition-note) {
+  --paper:#f5f3eb; --ink:#293b36; --green:#68796b; --brown:#9a927d;
+  --red:#a04435; --muted:#72786e; --line:#293b3624;
+  color:var(--ink);
+}
+.app button { -webkit-tap-highlight-color:transparent; }
+.app :is(button,a,input,textarea,summary):focus-visible { outline:2px solid var(--red); outline-offset:5px; }
+.ink-icon { width:19px; height:19px; flex:none; }
+
+/* The painting remains edge to edge. Its tools sit on two small paper slips. */
+.app .minimal-hud {
+  inset:24px 28px auto; height:60px; padding:0; gap:24px;
+  background:none; border:0; box-shadow:none; pointer-events:none;
+}
+.brand-mark {
+  display:flex; align-items:center; gap:16px; height:60px; padding:9px 22px 9px 13px;
+  font:27px/1 var(--brush); letter-spacing:.17em;
+  background:var(--grain),#f5f3ebef; box-shadow:0 5px 26px #182d2514;
+  border:1px solid #f9f7ee88;
+}
+.brand-seal {
+  display:block; font:16px/.95 var(--brush); letter-spacing:0; text-align:center;
+  padding:4px 5px; color:#f8f1df; background:var(--red);
+  outline:1px solid var(--red); outline-offset:2px; transform:rotate(-3deg);
+}
+.minimal-hud nav {
+  gap:0; height:56px; padding:0 12px; pointer-events:auto;
+  background:var(--grain),#f5f3ebf2; border:1px solid #fff9;
+  box-shadow:0 5px 26px #182d2514;
+}
+.app .minimal-hud button {
+  display:flex; align-items:center; justify-content:center; gap:8px;
+  height:100%; min-width:48px; padding:0 17px; font:14px var(--serif); letter-spacing:.08em;
+  position:relative; transition:color .2s,background .2s;
+}
+.minimal-hud nav button + button::before {
+  content:""; position:absolute; left:0; top:20px; bottom:20px; width:1px; background:var(--line);
+}
+.app .minimal-hud button:hover:not(:disabled) { background:#293b3607; color:var(--red); }
+.app .minimal-hud [data-testid=tasks-toggle] { color:var(--ink); }
+.app .minimal-hud [data-testid=tasks-toggle]::after {
+  content:""; position:absolute; bottom:7px; width:3px; height:3px; background:var(--red); border-radius:50%;
+}
+.app .minimal-hud button[aria-pressed=true] { color:var(--red); }
+.minimal-hud [data-music-control]::after {
+  content:""; width:4px; height:4px; border:1px solid currentColor; border-radius:50%; margin-left:1px;
+}
+.minimal-hud [data-music-control][aria-pressed=true]::after { background:currentColor; }
+.minimal-hud small:empty { display:none; }
+.app .scroll-progress { height:3px; background:#faf5e444; }
+.app .scroll-progress>span { inset:0; background:var(--red); opacity:.75; }
+.app .scene-marker {
+  width:48px; height:48px; border:1px solid #edece4; font:25px var(--brush);
+  background:#334c42ee; color:#faf5e6; box-shadow:0 0 0 4px #f5f3eb42,0 4px 12px #14282028;
+  border-radius:48% 52% 49% 51%; transition:background .2s;
+}
+.app .scene-marker[data-scene-id^=q_] { background:#a04435e8; }
+.app .scene-marker span {
+  top:57px; font:12px var(--serif); padding:6px 10px; letter-spacing:.12em;
+  color:var(--ink); background:var(--grain),#f5f3ebef; border:0; box-shadow:0 2px 9px #293b3617;
+}
+.app .magnifier-controls { right:28px; bottom:28px; }
+.app .magnifier-tool {
+  border:1px solid #f9f7ee88; border-radius:0; padding:13px 18px; gap:10px;
+  background:var(--grain),#f5f3ebf2; box-shadow:0 5px 26px #182d2517; font:14px var(--serif);
+}
+.app .magnifier-tool svg { width:23px; height:23px; stroke-width:1.5; }
+.app .magnifier-tool.picked-up { background:var(--ink); color:var(--paper); }
+.app .magnifier-options { border-radius:0; background:var(--grain),#f5f3ebf2; border-color:var(--line); }
+
+/* Dialogs: a fine rule, paper grain, generous inner margins and red seals. */
+.app .dialog-scrim {
+  padding:108px 28px 28px; background:#172b284a; backdrop-filter:blur(3px);
+}
+.app .paper-dialog {
+  width:480px; padding:48px 40px 38px; border:1px solid #f8f6ed;
+  background:var(--grain),var(--paper); box-shadow:0 22px 90px #0f282a38;
+  scrollbar-width:thin; scrollbar-color:#9c9f92 transparent;
+  animation:ink-paper-arrive .3s ease both;
+}
+.app .paper-dialog::before {
+  content:""; display:block; position:absolute; top:12px; left:12px; right:12px;
+  border-top:1px solid #293b3628; pointer-events:none;
+}
+.app .paper-dialog.wide { width:560px; }
+.app .paper-dialog .close {
+  top:23px; right:22px; width:36px; height:36px; padding:0;
+  font:26px/1 var(--serif); color:var(--ink)!important; border:1px solid var(--line);
+  transition:color .2s,background .2s;
+}
+.app .paper-dialog .close:hover { color:var(--red)!important; background:#a0443508; }
+.app .paper-dialog h2 { font:38px/1.35 var(--brush); letter-spacing:.13em; margin:0 0 24px; color:var(--ink); }
+.app .paper-dialog h3 { color:var(--ink); }
+.app .paper-dialog p { font-size:13px; line-height:2.1; color:#59665d; }
+.app .paper-dialog .eyebrow { color:#67715f!important; font:10px/1.7 var(--serif); letter-spacing:.23em; margin-bottom:15px; }
+.app .paper-dialog :is(.primary,.activity-switch button[aria-pressed=true]) {
+  color:#f8f4e8; background:var(--ink); border:1px solid var(--ink);
+}
+.app .paper-dialog .primary {
+  padding:14px 26px; font:15px/1.4 var(--serif); letter-spacing:.14em; margin-top:24px;
+  box-shadow:inset 0 0 0 3px var(--paper),inset 0 0 0 4px #f5f3eb44;
+  transition:background .2s,border-color .2s;
+}
+.app .paper-dialog .primary:hover:not(:disabled) { background:var(--red); border-color:var(--red); }
+.app .paper-dialog :is(.name-field input,.reflection-label textarea) {
+  background:#fffdf44d; border:1px solid #293b3633; color:var(--ink); font:15px/1.9 var(--serif);
+  padding:12px 14px;
+}
+.app .paper-dialog .text-button { font:13px var(--serif); color:var(--red); border-color:#a0443555; padding:10px 0; }
+.ink-seal {
+  display:inline-flex; writing-mode:vertical-rl; vertical-align:middle;
+  font:13px/1.1 var(--brush); letter-spacing:.12em; color:var(--red);
+  border:1px solid var(--red); padding:4px 3px; margin-left:18px; transform:rotate(-3deg);
+}
+
+/* Original painting crops, set as an illustrated index. No video in the index. */
+.app .paper-dialog:has(.travel-tasks) { width:min(940px,calc(100vw - 56px)); padding:44px 48px 32px; }
+.task-heading { display:flex; align-items:center; justify-content:space-between; gap:24px; padding-right:40px; }
+.app .task-heading h2 { font-size:44px; margin:0; }
+.app .task-heading p { margin:14px 0 0; font:13px/1.8 var(--serif); letter-spacing:.07em; }
+.task-heading-mark { font:100px/1 var(--brush); color:#293b360c; transform:rotate(-10deg); user-select:none; }
+.app .travel-tasks .task-tabs { margin:28px 0 0; gap:36px; border-bottom:1px solid var(--line); }
+.app .travel-tasks .task-tabs button { padding:13px 0; font:17px var(--serif); letter-spacing:.15em; color:#747d70; border-bottom:2px solid transparent; }
+.app .travel-tasks .task-tabs [aria-pressed=true] { color:var(--red); border-color:var(--red); }
+.app .task-list-caption { font:10px/1.7 var(--serif); letter-spacing:.12em; padding:15px 0 6px; color:#67715f!important; }
+.travel-tasks .travel-task-list { grid-template-columns:repeat(2,minmax(0,1fr)); column-gap:32px; }
+.app .travel-tasks .illustrated-task {
+  display:grid; position:relative; grid-template-columns:112px minmax(0,1fr);
+  gap:10px 20px; padding:23px 0; align-items:center; border-bottom:1px solid var(--line);
+  transition:background .2s;
+}
+.app .travel-tasks .illustrated-task:hover { background:#293b3604; }
+.app .illustrated-task>img {
+  width:112px; height:104px; grid-column:1; grid-row:1/3;
+  object-fit:cover; filter:none; border:0; box-shadow:0 0 0 5px #edece3;
+}
+.task-number { position:absolute; top:28px; left:5px; z-index:1; color:var(--paper); background:#293b36bf; font:10px/1.5 Georgia,serif; padding:1px 5px; }
+.app .illustrated-task .task-copy { grid-column:2; align-self:end; }
+.app .illustrated-task strong { color:var(--ink); font:23px/1.5 var(--brush); letter-spacing:.08em; }
+.app .paper-dialog .task-poem { color:#64715f!important; white-space:normal; text-wrap:pretty; font:12px/1.8 var(--serif); margin:5px 0 0; }
+.app .illustrated-task .task-entry-actions { grid-column:2; grid-row:2; justify-content:start; align-self:start; }
+.app .task-entry-actions button {
+  min-height:36px; padding:4px 0; border:0; background:transparent!important;
+}
+.app .task-entry-actions button em { font:12px var(--serif); letter-spacing:.15em; color:var(--red); }
+.app .task-entry-actions button:hover em { text-decoration:underline; text-underline-offset:5px; }
+.app .multi-entry-task .task-entry-actions { grid-template-columns:1fr; }
+.app .multi-entry-task .task-entry-actions button { border:0; }
+.app .multi-entry-task .task-entry-actions b { font:11px var(--serif); }
+
+/* Notebook and settings. */
+.app .paper-dialog .book-title { font:40px/1.5 var(--brush)!important; letter-spacing:.12em!important; margin-bottom:10px; }
+.app .paper-dialog .book-subtitle { font:15px var(--serif); color:#727e70!important; }
+.app .notebook-tabs { margin:30px 0; padding:14px 0; color:#7c8176; }
+.app .notebook-tabs button { font:14px var(--serif); min-width:36px; min-height:34px; }
+.app .paper-dialog .blank-page {
+  min-height:300px; padding:40px 20px; background:repeating-linear-gradient(transparent 0 39px,#293b3612 40px);
+  text-align:center;
+}
+.app .blank-page>span { font:24px var(--brush); letter-spacing:.2em; color:#687461; }
+.app .blank-page p { font:14px/2.8 var(--serif); color:#687461; }
+.app .review-records blockquote { font:16px/2.1 var(--serif); border-color:#a0443570; color:var(--ink); }
+.app .name-field { font:13px var(--serif); letter-spacing:.1em; gap:12px; }
+
+/* Game paper uses the same palette without filtering any gameplay media. */
+.app .game-scrim { padding:30px; }
+.app .paper-dialog.game-dialog { width:min(1240px,100%); padding:40px 44px 24px; }
+.app .game-dialog .workshop-heading { margin-bottom:28px; border-color:var(--line); padding-right:42px; }
+.app .game-dialog .workshop-heading h2 { font:36px/1.4 var(--brush); margin-bottom:22px; }
+.app .workshop-intro { gap:42px; }
+.app .intro-copy .observation { font:20px/1.9 var(--brush); color:var(--ink); }
+.app .intro-copy p { font:14px/2 var(--serif); }
+.app .workshop-footer { padding-top:16px; margin-top:28px; font:11px/1.8 var(--serif); color:#67715f; border-color:var(--line); }
+.app .game-dialog :is(.quiz-options button,.dialogue-choices button,.activity-switch button) { border-color:var(--line); font-family:var(--serif); }
+.app .game-dialog .quiz-options button { background:#ffffff35; padding:17px 20px; }
+.app .game-dialog .quiz-options button:hover:not(:disabled) { background:#e5e9df; border-color:#748674; }
+.app .game-dialog .quiz-options .correct { background:#e3eadd; border-color:#68816c; }
+.app .game-dialog :is(.weigh-lesson,.weigh-culture) { background:#e9ece1; border-color:var(--line); }
+.app .game-dialog .weigh-workbench svg { background:#faf8f0; border-color:var(--line); }
+.app .game-dialog .weigh-steps span { border-color:var(--line); color:#67715f; }
+.app .game-dialog .weigh-steps [aria-current=step] { background:var(--ink); color:var(--paper); }
+.app .game-dialog .weigh-equation { background:#e5eadd; border-color:#71826c; }
+.app .game-dialog .outcome-seal { font-family:var(--brush); border-color:var(--red); color:var(--red); }
+.app .game-dialog :is(.quiz-feedback,.quiz-verse) { background:#e7eadd; border-color:#71826c; }
+.app .quiz-layout h3 { font:24px/1.7 var(--serif); }
+.app .quiz-help p { background:#e7eadd; border-color:#78866c; }
+.app .dialogue-choices button { padding:10px 15px; }
+.app .paper-dialog.game-dialog:has(.first-person-game) { padding:26px 26px 16px; max-height:calc(100dvh - 60px); height:calc(100dvh - 60px); }
+.app .game-dialog:has(.first-person-game) .workshop-heading h2 { font-size:27px; margin:0 0 12px; }
+.app .game-dialog:has(.first-person-game) .workshop-footer { margin-top:12px; padding-top:10px; }
+.app .first-person-game { border:0; border-radius:0; box-shadow:none; }
+.app .fps-actions button { border-color:#f5f3eb80; background:#293b36e6; }
+.app .fps-top :is(span,strong),.app .fps-help { background:#293b36d9; }
+.app .fps-keypad button { background:#293b36d9; }
+.app .hand-scroll { background:var(--grain),var(--paper); border-color:var(--line); color:var(--ink); }
+.app :is(.error-card,.save-warning,.subtle-loading,.transition-note) { background:var(--grain),#f5f3ebf2; }
+
+/* A painted frontispiece: mist, breathing room, a title and red entry seal. */
+.app .cinematic-intro { background:var(--grain),#f4f2e9; color:var(--ink); overflow:hidden; }
+.ink-frontispiece { position:absolute; inset:0; overflow:hidden; pointer-events:none; background:linear-gradient(#f5f3eb30,#f5f3eb00),url('/ui/ink-landscape-v1.png') center/cover no-repeat; }
+.ink-frontispiece::before { content:""; position:absolute; inset:30px; border:1px solid #293b361b; }
+.ink-frontispiece-stroke { position:absolute; right:6%; top:12%; width:1px; height:100px; background:#a0443560; }
+.ink-frontispiece-stroke::after { content:""; position:absolute; width:5px; height:5px; background:var(--red); left:-2px; bottom:-10px; transform:rotate(45deg); }
+.app .cinematic-center { position:relative; transform:translateY(-1vh); }
+.app .cinematic-title h1 { font:400 clamp(60px,8.2vw,112px)/1.5 var(--brush); letter-spacing:.23em; padding-left:.23em; margin:0 0 46px; color:var(--ink); }
+.app .cinematic-title button {
+  display:block; margin:0 auto; writing-mode:vertical-rl; padding:20px 16px; letter-spacing:.3em;
+  font:23px/1.2 var(--brush); color:#fcf6e8; background:var(--red); border:1px solid var(--red);
+  outline:1px solid var(--red); outline-offset:4px; box-shadow:inset 0 0 0 2px #f4f2e999;
+  transition:background .3s,transform .3s; min-height:92px;
+}
+.app .cinematic-title button:hover:not(:disabled) { background:#843628; transform:translateY(-3px); }
+.app .cinematic-title button:focus-visible { outline:2px solid var(--ink); outline-offset:8px; }
+.app .poem-line { color:var(--ink); font-family:var(--brush); line-height:2.3; font-size:clamp(25px,2.5vw,36px); }
+.app .poem-credit { color:#8a8d7d; font-family:var(--serif); }
+.app .with-poem .cinematic-title h1 { font-size:44px; margin:24px 0; }
+.app .with-poem .cinematic-title button { font-size:18px; padding:12px; min-height:70px; }
+.app .cinematic-intro.unfurling { background:transparent; }
+.app .cinematic-intro.preparing .ink-frontispiece { opacity:0; transition:opacity .7s; }
+.app .scroll-unfurl::before { background:#f4f2e9; }
+@keyframes ink-paper-arrive { from { opacity:0; transform:translateY(12px); } to { opacity:1; transform:translateY(0); } }
+
+@media (max-width:1100px) {
+  .app .minimal-hud { inset:20px 20px auto; gap:15px; }
+  .brand-mark { font-size:23px; padding-right:18px; gap:12px; }
+  .app .minimal-hud button { padding-inline:12px; font-size:13px; }
+  .minimal-hud nav { padding-inline:8px; }
+  .app .dialog-scrim { padding:98px 20px 20px; }
+  .app .game-scrim { padding:22px; }
+  .app .paper-dialog:has(.travel-tasks) { width:min(900px,100%); padding:42px 36px 26px; }
+  .travel-tasks .travel-task-list { column-gap:26px; }
+  .app .travel-tasks .illustrated-task { grid-template-columns:100px minmax(0,1fr); gap:8px 18px; }
+  .app .illustrated-task>img { width:100px; height:100px; }
+}
+@media (max-width:760px) {
+  .app .minimal-hud { inset:14px 14px auto; height:auto; align-items:flex-start; gap:12px; }
+  .brand-mark { height:50px; padding:8px 12px; font-size:21px; gap:10px; }
+  .brand-seal { font-size:12px; }
+  .app .minimal-hud nav { height:50px; }
+  .app .minimal-hud button { padding:0 10px; min-width:36px; font-size:12px; gap:6px; }
+  .minimal-hud .ink-icon { width:16px; height:16px; }
+  .minimal-hud nav button+button::before { top:17px; bottom:17px; }
+  .app .minimal-hud button[aria-label="摄像头手势行卷"] .ink-icon,
+  .app .minimal-hud button[aria-pressed] .ink-icon { display:none; }
+  .app .dialog-scrim { padding:78px 14px 14px; }
+  .app .paper-dialog:has(.travel-tasks) { padding:35px 26px 26px; }
+  .app .task-heading h2 { font-size:36px; }
+  .task-heading-mark { display:none; }
+  .travel-tasks .travel-task-list { grid-template-columns:1fr; }
+  .app .travel-tasks .illustrated-task { grid-template-columns:116px minmax(0,1fr); gap:8px 24px; padding:20px 0; }
+  .app .illustrated-task>img { width:116px; height:100px; }
+  .app .task-number { top:25px; }
+  .app .task-poem { font-size:13px!important; }
+  .app .game-scrim { padding:14px; }
+  .app .paper-dialog.game-dialog { padding:36px 24px 22px; }
+  .app .game-dialog .workshop-heading h2 { font-size:30px; }
+  .app .workshop-intro { gap:24px; }
+  .app .paper-dialog.game-dialog:has(.first-person-game) { padding:22px 12px 12px; height:calc(100dvh - 28px); max-height:calc(100dvh - 28px); }
+  .app .paper-dialog .close { top:20px; right:18px; }
+  .app .game-dialog:has(.first-person-game) .close { top:16px; right:14px; }
+  .app .game-dialog:has(.first-person-game) .workshop-heading h2 { font-size:23px; }
+  .app .magnifier-controls { right:14px; bottom:20px; }
+  .app .paper-dialog { width:min(100%,480px); padding:42px 28px 28px; }
+}
+@media (max-width:580px) {
+  .app .minimal-hud { display:grid; grid-template-columns:1fr; gap:10px; justify-items:start; }
+  .app .minimal-hud nav { width:100%; height:46px; padding:0 4px; justify-content:space-between; }
+  .app .minimal-hud button { padding:0 8px; letter-spacing:0; font-size:12px; min-width:30px; }
+  .minimal-hud nav .ink-icon { display:none; }
+  .minimal-hud nav button[aria-label="作品设置"] .ink-icon { display:block; }
+  .app .dialog-scrim { padding:18px 12px; z-index:30; }
+  .app .paper-dialog:has(.travel-tasks) { padding:54px 22px 24px; }
+  .app .task-heading h2 { font-size:34px; }
+  .app .task-heading p { font-size:12px; letter-spacing:0; }
+  .app .travel-tasks .task-tabs { margin-top:24px; }
+  .app .travel-tasks .illustrated-task { grid-template-columns:86px minmax(0,1fr); gap:8px 20px; }
+  .app .illustrated-task>img { width:86px; height:96px; }
+  .app .illustrated-task strong { font-size:23px; }
+  .app .task-poem { font-size:11px!important; }
+  .app .paper-dialog.game-dialog { padding:54px 20px 20px; }
+  .app .paper-dialog .book-title { font-size:34px!important; }
+  .app .paper-dialog .close { top:21px; right:20px; }
+  .app .paper-dialog h2 { font-size:32px; }
+  .app .cinematic-title h1 { font-size:clamp(40px,10vw,58px); letter-spacing:.15em; padding-left:.15em; margin-bottom:52px; }
+  .ink-frontispiece::before { inset:18px; }
+  .ink-frontispiece { background-position:65% center; }
+  .app .poem-line { font-size:clamp(22px,5.5vw,29px); }
+  .app .magnifier-tool { padding:11px 14px; font-size:12px; }
+}
+@media (prefers-reduced-motion:reduce) {
+  .app .paper-dialog { animation:none; }
+  .app .cinematic-title button { transition:none; }
+}
+
+/* Keep the exit reachable when a long index or question is scrolled. */
+.app .paper-dialog .dialog-close-rail { position:sticky; top:24px; height:0; flex:none; z-index:6; }
+.app .paper-dialog .dialog-close-rail>.close { top:-24px; right:-12px; background:var(--paper); }
+.app .game-dialog:has(.first-person-game) .dialog-close-rail>.close { top:-10px; right:0; }
+@media(max-width:580px) {
+  .app .paper-dialog .dialog-close-rail>.close { right:0; }
+  .app .task-entry-actions button { min-height:44px; }
+}

@@ -1,0 +1,93 @@
+[
+  {
+    "id": "S-FN-01",
+    "author": "德基艺术博物馆",
+    "title": "馆藏《仿宋院本金陵图》",
+    "url": "https://www.dejiart.com/artwork/fangyangdazhanghuasongyuanbenjinlingtu/",
+    "locator": "作品信息及 Description 第2段",
+    "summary": "馆方标注作者冯宁、1794年，并将画面分为乡野、街市和郊野三段。",
+    "access": "official_page_read",
+    "accessedAt": "2026-10-29",
+    "pagePrinted": null,
+    "pagePdf": null,
+    "fullLocalText": false
+  },
+  {
+    "id": "S-FN-02",
+    "author": "聂崇正",
+    "title": "冯宁画《宋院本金陵图》卷",
+    "url": "https://www.dejiart.com/research/fengninghuafangyangdazhanghuasongyuanbenjinlingtujuan-2/",
+    "locator": "正文第2段：画卷景物与卷尾署款；第4段：摹本关系",
+    "summary": "聂崇正描述商铺、舟车、行旅与水门，并讨论卷尾署款及摹绘关系。",
+    "access": "Chinese_relevant_passages_read",
+    "accessedAt": "2026-10-29",
+    "pagePrinted": null,
+    "pagePdf": null,
+    "fullLocalText": false
+  },
+  {
+    "id": "S-FN-03",
+    "author": "梁白泉",
+    "title": "读冯宁《金陵图》",
+    "url": "https://www.dejiart.com/research/dufengningjinlingtu-2/",
+    "locator": "正文第5段，起句为“今见图中还绘有”",
+    "summary": "梁白泉辨认出瓮城、手摇纺车、井中汲水等日常生活场景。",
+    "access": "Chinese_article_read",
+    "accessedAt": "2026-10-29",
+    "pagePrinted": null,
+    "pagePdf": null,
+    "fullLocalText": false
+  },
+  {
+    "id": "S-FN-04",
+    "author": "邱士华",
+    "title": "寻找失落的图像——从谢遂、杨大章与冯宁的《金陵图》想像《宋院本金陵图》",
+    "url": "https://www.dejiart.com/research/xunzhaoshiluodetuxiang-congxiesuiyangdazhangyufengningdejinlingtuxiangxiangsongyuanbenjinlingtu/",
+    "locator": "图20之后讨论祖本年代的段落；“小结”",
+    "summary": "作者提出祖本可能具有明代渊源的假说，并讨论三种摹本的传承与变化。此为有归属的研究观点。",
+    "access": "Chinese_relevant_passages_read",
+    "accessedAt": "2026-10-29",
+    "pagePrinted": null,
+    "pagePdf": null,
+    "fullLocalText": false
+  },
+  {
+    "id": "S-FN-05",
+    "author": "德基艺术博物馆",
+    "title": "金陵图数字艺术展",
+    "url": "https://www.dejiart.com/exhibition/jinlingtushuziyishuzhan/",
+    "locator": "Exhibition information",
+    "summary": "馆方已有角色入画与实时跟随体验。本作不宣称首创角色入画。",
+    "access": "official_page_read",
+    "accessedAt": "2026-10-29",
+    "pagePrinted": null,
+    "pagePdf": null,
+    "fullLocalText": false
+  },
+  {
+    "id": "S-FN-06",
+    "author": "周运中",
+    "title": "南京记忆｜“金陵”图中觅风华",
+    "url": "https://dfz.nanjing.gov.cn/gzdt/202504/t20250429_5138410.html",
+    "locator": "“古城风华”中讨论右侧城门的段落",
+    "summary": "作者提出右侧城门的地理解释，并回应其他辨认。本作保留争议，不将门址写为定论。",
+    "access": "official_article_read",
+    "accessedAt": "2026-10-29",
+    "pagePrinted": null,
+    "pagePdf": null,
+    "fullLocalText": false
+  },
+  {
+    "id": "S-FN-07",
+    "author": "德基艺术博物馆",
+    "title": "《石渠典藏·金陵图》介绍",
+    "url": "https://www.dejiart.com/research/shiqudiancangjinlingtu/",
+    "locator": "Product Information",
+    "summary": "仅为书目介绍；未取得全书，不作为页码或具体论点的依据。",
+    "access": "book_intro_only",
+    "accessedAt": "2026-10-29",
+    "pagePrinted": null,
+    "pagePdf": null,
+    "fullLocalText": false
+  }
+]

@@ -1,0 +1,1227 @@
+[
+  {
+    "sceneId": "q_household",
+    "boundsPx": {
+      "x": 108700,
+      "y": 2550,
+      "width": 2200,
+      "height": 1400
+    },
+    "previewPath": "/review/q_household-context.jpg",
+    "cropSha256": "f33a4c82aaf638333e337a4ffcfdfac5448c61ccb2a0582fae19716c957273ff",
+    "reviewStatus": "in_review",
+    "imageId": "fengning_1794",
+    "title": "灶边日常",
+    "theme": "人",
+    "mechanic": "quiz",
+    "anchorPx": {
+      "x": 109800,
+      "y": 3250
+    },
+    "sourceRefs": [
+      "S-FN-01",
+      "S-Q12-01",
+      "S-P12-01"
+    ],
+    "observation": "灶火旁摆着锅、盆和碗，红衣人物举着带孔的捞具，屋外还有大人与孩子。",
+    "learningGoal": "理解笊篱的沥水作用，读懂家常烹饪中的口味与照料。",
+    "fictionDisclosure": "问题、选项、见微话语与答题奖励为 D 级创作。观察与研究分开，不认定未核实的行业、身份、地点和制度。",
+    "sourceSha256": "ec76713b0a845ed3f42f15a0b1f725e86419aaea5907ed569539ba16a3e2babb",
+    "imageInspectedBy": "Codex visual inspection, not human approval",
+    "inspectedAt": "2026-10-29",
+    "humanApproved": false,
+    "evidenceIds": [
+      "A-q_household",
+      "B-q_household"
+    ],
+    "claims": [
+      {
+        "id": "A-q_household",
+        "grade": "A",
+        "text": "灶火旁摆着锅、盆和碗，红衣人物举着带孔的捞具，屋外还有大人与孩子。"
+      },
+      {
+        "id": "B-q_household",
+        "grade": "B",
+        "sourceIds": [
+          "S-FN-01",
+          "S-Q12-01",
+          "S-P12-01"
+        ]
+      },
+      {
+        "id": "D-q_household",
+        "grade": "D",
+        "text": "问题、选项、见微话语与答题奖励为 D 级创作。观察与研究分开，不认定未核实的行业、身份、地点和制度。"
+      }
+    ],
+    "questions": [
+      {
+        "kind": "craft",
+        "knowledgePoint": "笊篱：把食物捞起，让水留下",
+        "pictureClue": "看红衣人物手中的网状捞具和下方的盆。",
+        "prompt": "如果要把煮好的食物捞出，为什么用这种带孔的笊篱，比实心汤勺更合适？",
+        "options": [
+          "漏下汤水，留下食物",
+          "让汤汁和食物一起装满",
+          "把食物压成细末"
+        ],
+        "answer": 0,
+        "hint": "留意孔隙：什么能流过去，什么会留在上面？",
+        "explanation": "笊篱（zhào li）用竹篾等编成，能在捞起食物时沥去水分。画里的网状器具、锅和接在下方的盆，正好让我们看懂这种厨房分离法。",
+        "grade": "B",
+        "sourceIds": [
+          "S-Q12-01"
+        ],
+        "locator": "《重编国语辞典修订本》“笊篱”条；冯宁版家厨裁切。"
+      },
+      {
+        "kind": "poem",
+        "knowledgePoint": "一道羹汤，也要懂得家人的口味",
+        "pictureClue": "从灶边的锅碗，读到诗里的“入厨下”。",
+        "prompt": "诗里的新娘为什么先请“小姑”尝汤？",
+        "options": [
+          "请她检查柴火是否烧尽",
+          "借她了解婆婆的口味",
+          "请她核算这一餐的花费"
+        ],
+        "answer": 1,
+        "hint": "“未谙”就是还不熟悉；“食性”说的是爱吃什么口味。",
+        "explanation": "王建把做饭写得很有人情味：新娘还不熟悉婆婆的口味，便先让小姑品尝。画中的家厨同样把食物、器具和家人放在了一起，一餐饭也是人与人之间的照料。",
+        "grade": "B",
+        "sourceIds": [
+          "S-P12-01"
+        ],
+        "locator": "王建《新嫁娘》全诗；“姑”指婆婆，“小姑”指丈夫的妹妹。",
+        "verse": {
+          "text": "三日入厨下，洗手作羹汤。\n未谙姑食性，先遣小姑尝。",
+          "author": "王建",
+          "title": "新嫁娘"
+        }
+      }
+    ],
+    "contentVersion": 12,
+    "contentResearchedAt": "2026-10-31"
+  },
+  {
+    "sceneId": "q_carpentry",
+    "boundsPx": {
+      "x": 104900,
+      "y": 2700,
+      "width": 2200,
+      "height": 1250
+    },
+    "previewPath": "/review/q_carpentry-context.jpg",
+    "cropSha256": "cfc800fda58e424c6e452d330c0a98f7a0dd7523c449ce87fd7ba7d4ebd63e44",
+    "reviewStatus": "in_review",
+    "imageId": "fengning_1794",
+    "title": "木屑之间",
+    "theme": "业",
+    "mechanic": "quiz",
+    "anchorPx": {
+      "x": 106000,
+      "y": 3325
+    },
+    "sourceRefs": [
+      "S-FN-01",
+      "S-Q12-02",
+      "S-Q12-03"
+    ],
+    "observation": "木匠举起工具加工木料，脚边散着木屑，旁边放着一把带木框和绳索的框锯。",
+    "learningGoal": "理解框锯调节与墨斗弹线的原理，认识传统木作的加工基准。",
+    "fictionDisclosure": "问题、选项、见微话语与答题奖励为 D 级创作。观察与研究分开，不认定未核实的行业、身份、地点和制度。",
+    "sourceSha256": "ec76713b0a845ed3f42f15a0b1f725e86419aaea5907ed569539ba16a3e2babb",
+    "imageInspectedBy": "Codex visual inspection, not human approval",
+    "inspectedAt": "2026-10-29",
+    "humanApproved": false,
+    "evidenceIds": [
+      "A-q_carpentry",
+      "B-q_carpentry"
+    ],
+    "claims": [
+      {
+        "id": "A-q_carpentry",
+        "grade": "A",
+        "text": "木匠举起工具加工木料，脚边散着木屑，旁边放着一把带木框和绳索的框锯。"
+      },
+      {
+        "id": "B-q_carpentry",
+        "grade": "B",
+        "sourceIds": [
+          "S-FN-01",
+          "S-Q12-02",
+          "S-Q12-03"
+        ]
+      },
+      {
+        "id": "D-q_carpentry",
+        "grade": "D",
+        "text": "问题、选项、见微话语与答题奖励为 D 级创作。观察与研究分开，不认定未核实的行业、身份、地点和制度。"
+      }
+    ],
+    "questions": [
+      {
+        "kind": "craft",
+        "knowledgePoint": "框锯的绳索，也在参与锯木",
+        "pictureClue": "找木匠脚边的框锯：一边是锯条，另一边是绳。",
+        "prompt": "框锯上为什么还要装一根能拧动绳索的绞片？",
+        "options": [
+          "用来给木料刻出花纹",
+          "让锯条自动来回运动",
+          "调节绳的松紧，使锯条保持稳定"
+        ],
+        "answer": 2,
+        "hint": "想想一根松垮的锯条，切起来会不会容易偏？",
+        "explanation": "框锯把锯条装在木架之间，转动绞片可以调节绳索与木架的紧张程度。木架、绳和薄锯条一起工作，锯条才能稳定切入木材；这是传统工具巧用张力的办法。",
+        "grade": "B",
+        "sourceIds": [
+          "S-Q12-02"
+        ],
+        "locator": "国立台湾历史博物馆“框锯”藏品说明：调整绳、绞片与支撑结构。"
+      },
+      {
+        "kind": "craft",
+        "knowledgePoint": "先弹一条线，再落锯",
+        "pictureClue": "画中有待加工的木料和长锯；想一想下锯之前的准备。",
+        "prompt": "要把这样一段木料锯直，木工常先用墨斗弹线。这条线最重要的作用是什么？",
+        "options": [
+          "留下连续的直线，给加工定基准",
+          "让木料吸满墨水后更容易弯曲",
+          "遮住木纹，方便涂漆"
+        ],
+        "answer": 0,
+        "hint": "拉紧的线会取直；轻轻弹一下，墨痕就留在木面上。",
+        "explanation": "墨斗让一根线经过墨汁，再把它绷直弹向木面，便能留下长直线。先定基准再锯削，能减少走偏和返工；“规矩准绳”里的“绳”，就与这类定线工具有关。",
+        "grade": "B",
+        "sourceIds": [
+          "S-Q12-03"
+        ],
+        "locator": "李乾朗《台湾墨斗与日本墨斗的比较》前两段：墨斗即绳、弹线原理。"
+      }
+    ],
+    "contentVersion": 12,
+    "contentResearchedAt": "2026-10-31"
+  },
+  {
+    "sceneId": "q_herding",
+    "boundsPx": {
+      "x": 93000,
+      "y": 2700,
+      "width": 2800,
+      "height": 1350
+    },
+    "previewPath": "/review/q_herding-context.jpg",
+    "cropSha256": "d3f417296656637b9eb8bb48abd35526b9f3624d0da8a6d0770046e2ed2ab3b0",
+    "reviewStatus": "in_review",
+    "imageId": "fengning_1794",
+    "title": "羊群入画",
+    "theme": "路",
+    "mechanic": "quiz",
+    "anchorPx": {
+      "x": 94400,
+      "y": 3375
+    },
+    "sourceRefs": [
+      "S-FN-01",
+      "S-P12-02",
+      "S-Q12-04"
+    ],
+    "observation": "成群的羊挨着前行，羊角高低交错，持长杆的人在羊群一旁照看。",
+    "learningGoal": "将《无羊》的群羊形象与画面相读，了解古农书的放牧经验。",
+    "fictionDisclosure": "问题、选项、见微话语与答题奖励为 D 级创作。观察与研究分开，不认定未核实的行业、身份、地点和制度。",
+    "sourceSha256": "ec76713b0a845ed3f42f15a0b1f725e86419aaea5907ed569539ba16a3e2babb",
+    "imageInspectedBy": "Codex visual inspection, not human approval",
+    "inspectedAt": "2026-10-29",
+    "humanApproved": false,
+    "evidenceIds": [
+      "A-q_herding",
+      "B-q_herding"
+    ],
+    "claims": [
+      {
+        "id": "A-q_herding",
+        "grade": "A",
+        "text": "成群的羊挨着前行，羊角高低交错，持长杆的人在羊群一旁照看。"
+      },
+      {
+        "id": "B-q_herding",
+        "grade": "B",
+        "sourceIds": [
+          "S-FN-01",
+          "S-P12-02",
+          "S-Q12-04"
+        ]
+      },
+      {
+        "id": "D-q_herding",
+        "grade": "D",
+        "text": "问题、选项、见微话语与答题奖励为 D 级创作。观察与研究分开，不认定未核实的行业、身份、地点和制度。"
+      }
+    ],
+    "questions": [
+      {
+        "kind": "poem",
+        "knowledgePoint": "“濈濈”：羊角挨着羊角",
+        "pictureClue": "看羊群聚拢时，高低交错的角。",
+        "prompt": "“其角濈濈（jí jí）”写出了眼前哪一种感觉？",
+        "options": [
+          "羊群分散在草地上，各自低头吃草",
+          "许多羊角聚在一起，羊群密密前行",
+          "牧人举起羊角号，召唤远处的羊"
+        ],
+        "answer": 1,
+        "hint": "把“濈濈”想成挨挨挤挤、聚在一起的样子。",
+        "explanation": "《诗经·小雅·无羊》用聚集的羊角写羊群丰盛，接着还写饮水、休息和牧人的照看。读这句诗，再看画里交错的角，便能体会古人怎样用一个小细节写出一整群动物。",
+        "grade": "B",
+        "sourceIds": [
+          "S-P12-02"
+        ],
+        "locator": "《诗经·小雅·无羊》首章；朱熹《诗集传》释为羊群聚角之貌。",
+        "verse": {
+          "text": "尔羊来思，其角濈濈。",
+          "author": "《诗经》",
+          "title": "小雅·无羊"
+        }
+      },
+      {
+        "kind": "life",
+        "knowledgePoint": "赶羊要懂节奏",
+        "pictureClue": "看牧人和羊群之间的距离：照看一群动物也需要方法。",
+        "prompt": "《齐民要术》提醒牧人“缓驱行”。若你来照看这群羊，怎样做最贴近这个经验？",
+        "options": [
+          "一路急赶，尽快走完草地",
+          "让它们整日停在原处，少费力气",
+          "缓缓引着走，让它们边走边吃草"
+        ],
+        "answer": 2,
+        "hint": "“缓”不是完全停住，而是有节奏地慢慢走。",
+        "explanation": "贾思勰写“缓驱行，勿停息”，把赶得太急和久停不动都列为需要留意的情形。放牧靠的是让羊有节奏地觅食、观察队伍，而非一路催赶；画里的牧人也因此成为羊群行进的组织者。",
+        "grade": "B",
+        "sourceIds": [
+          "S-Q12-04"
+        ],
+        "locator": "《齐民要术》卷六“养羊第五十七”，缓驱行段。"
+      }
+    ],
+    "contentVersion": 12,
+    "contentResearchedAt": "2026-10-31"
+  },
+  {
+    "sceneId": "q_basins",
+    "boundsPx": {
+      "x": 81800,
+      "y": 1350,
+      "width": 2400,
+      "height": 2000
+    },
+    "previewPath": "/review/q_basins-context.jpg",
+    "cropSha256": "acbbc90ca5363dfe1343093b457a5de878251e7e402ee3980264e5afbdf33f88",
+    "reviewStatus": "in_review",
+    "imageId": "fengning_1794",
+    "title": "众手成事",
+    "theme": "业",
+    "mechanic": "quiz",
+    "anchorPx": {
+      "x": 83000,
+      "y": 2350
+    },
+    "sourceRefs": [
+      "S-FN-01",
+      "S-Q12-05"
+    ],
+    "observation": "院里有人操作悬挂的筛具，旁边堆着粮粒和袋筐，还有人用扁担搬运。",
+    "learningGoal": "分清筛选与簸扬，理解粮食加工利用大小和轻重差异。",
+    "fictionDisclosure": "问题、选项、见微话语与答题奖励为 D 级创作。观察与研究分开，不认定未核实的行业、身份、地点和制度。",
+    "sourceSha256": "ec76713b0a845ed3f42f15a0b1f725e86419aaea5907ed569539ba16a3e2babb",
+    "imageInspectedBy": "Codex visual inspection, not human approval",
+    "inspectedAt": "2026-10-29",
+    "humanApproved": false,
+    "evidenceIds": [
+      "A-q_basins",
+      "B-q_basins"
+    ],
+    "claims": [
+      {
+        "id": "A-q_basins",
+        "grade": "A",
+        "text": "院里有人操作悬挂的筛具，旁边堆着粮粒和袋筐，还有人用扁担搬运。"
+      },
+      {
+        "id": "B-q_basins",
+        "grade": "B",
+        "sourceIds": [
+          "S-FN-01",
+          "S-Q12-05"
+        ]
+      },
+      {
+        "id": "D-q_basins",
+        "grade": "D",
+        "text": "问题、选项、见微话语与答题奖励为 D 级创作。观察与研究分开，不认定未核实的行业、身份、地点和制度。"
+      }
+    ],
+    "questions": [
+      {
+        "kind": "craft",
+        "knowledgePoint": "筛孔的大小，要跟着粮粒走",
+        "pictureClue": "看悬挂筛具的底面，以及下方落下的颗粒。",
+        "prompt": "筛米的筛子换来筛小得多的芝麻，筛孔该怎样调整？",
+        "options": [
+          "改得更细密，才好分开芝麻与较大的残屑",
+          "改得越大越好，所有东西一起落下",
+          "孔径不重要，只要筛框更重"
+        ],
+        "answer": 0,
+        "hint": "《天工开物》说麻筛与米筛外形相近，但麻筛的网眼更细。",
+        "explanation": "筛选靠的是颗粒大小和筛孔配合。《天工开物》记麻粒从网眼落下，残叶、角屑留在上面。画中筛具把加工与装袋连接起来：收获之后，还要把可食的粮粒分选出来。",
+        "grade": "B",
+        "sourceIds": [
+          "S-Q12-05"
+        ],
+        "locator": "《天工开物·粹精》“攻黍稷粟粱麻菽”，麻筛段。"
+      },
+      {
+        "kind": "craft",
+        "knowledgePoint": "筛看大小，簸看轻重",
+        "pictureClue": "院里的粮粒要从收成变成粮食，还得清掉混进来的杂物。",
+        "prompt": "若细糠和粮粒大小接近，单靠筛孔难分开，古人还能借什么把轻糠分出去？",
+        "options": [
+          "把两者压得一样重，再装袋",
+          "借簸扬或风力，让轻糠与重粮分开",
+          "给粮食染色，再按颜色分选"
+        ],
+        "answer": 1,
+        "hint": "想象一阵风吹过：轻薄的糠和饱满的粮粒，谁更容易被带走？",
+        "explanation": "《天工开物》写簸扬时轻物与重粮分开。这与筛孔按大小分选不同：大小相近也能借轻重和受风差异继续清理。粮作场景里的筛、盛具和挑运，背后是一串相互配合的工序。",
+        "grade": "B",
+        "sourceIds": [
+          "S-Q12-05"
+        ],
+        "locator": "《天工开物·粹精》“攻黍稷粟粱麻菽”，开篇簸法段。"
+      }
+    ],
+    "contentVersion": 12,
+    "contentResearchedAt": "2026-10-31"
+  },
+  {
+    "sceneId": "q_roadside",
+    "boundsPx": {
+      "x": 77800,
+      "y": 1400,
+      "width": 3000,
+      "height": 1900
+    },
+    "previewPath": "/review/q_roadside-context.jpg",
+    "cropSha256": "4a0631769ca0210e21be3477e4f60032219fd9e146c712a71a6ef6beefa22b90",
+    "reviewStatus": "in_review",
+    "imageId": "fengning_1794",
+    "title": "街边百味",
+    "theme": "人",
+    "mechanic": "quiz",
+    "anchorPx": {
+      "x": 79300,
+      "y": 2350
+    },
+    "sourceRefs": [
+      "S-FN-01",
+      "S-Q12-06",
+      "S-L12-02",
+      "S-Q12-07"
+    ],
+    "observation": "临街铺面摆着食品、碗盆和案桌，店外有人携物行走，食客在一旁歇脚。",
+    "learningGoal": "认识金陵饮食笔记中的工艺趣味，以及早市餐食与城市作息的联系。",
+    "fictionDisclosure": "问题、选项、见微话语与答题奖励为 D 级创作。观察与研究分开，不认定未核实的行业、身份、地点和制度。",
+    "sourceSha256": "ec76713b0a845ed3f42f15a0b1f725e86419aaea5907ed569539ba16a3e2babb",
+    "imageInspectedBy": "Codex visual inspection, not human approval",
+    "inspectedAt": "2026-10-29",
+    "humanApproved": false,
+    "evidenceIds": [
+      "A-q_roadside",
+      "B-q_roadside"
+    ],
+    "claims": [
+      {
+        "id": "A-q_roadside",
+        "grade": "A",
+        "text": "临街铺面摆着食品、碗盆和案桌，店外有人携物行走，食客在一旁歇脚。"
+      },
+      {
+        "id": "B-q_roadside",
+        "grade": "B",
+        "sourceIds": [
+          "S-FN-01",
+          "S-Q12-06",
+          "S-L12-02",
+          "S-Q12-07"
+        ]
+      },
+      {
+        "id": "D-q_roadside",
+        "grade": "D",
+        "text": "问题、选项、见微话语与答题奖励为 D 级创作。观察与研究分开，不认定未核实的行业、身份、地点和制度。"
+      }
+    ],
+    "questions": [
+      {
+        "kind": "life",
+        "knowledgePoint": "金陵薄饼，能“映字”",
+        "pictureClue": "从铺面上的面食与案桌，想一想师傅擀制食物的手艺。",
+        "prompt": "《清异录》称赞金陵饮食“饼可映字”。这是在夸这张饼做得怎样？",
+        "options": [
+          "饼上写满了招牌文字",
+          "饼特别厚，足以压平纸张",
+          "饼薄得透光，隔着也能看见字"
+        ],
+        "answer": 2,
+        "hint": "“映字”说的是从饼的另一面，仍能看见文字。",
+        "explanation": "《清异录·建康七妙》以“饼可映字”夸食物做得薄巧，还用酥脆、细滑等夸张说法写金陵饮食。街边的一张饼，原来能成为城市引以为趣的手艺。",
+        "grade": "B",
+        "sourceIds": [
+          "S-Q12-06",
+          "S-L12-02"
+        ],
+        "locator": "《清异录·馔羞门·建康七妙》；张宏、周安庆《宋代金陵社会生活的文化缩影》原刊第47页。"
+      },
+      {
+        "kind": "life",
+        "knowledgePoint": "古城的早餐为什么开得早",
+        "pictureClue": "店前既有食客，也有挑担赶路的人。",
+        "prompt": "《东京梦华录》写汴京五更已有粥饭点心开卖。这样的早铺，最能照顾哪一群人的需要？",
+        "options": [
+          "天未亮就赶路、入市或上工的人",
+          "只在深夜散席的宴会客人",
+          "必须等到午后才出门的游人"
+        ],
+        "answer": 0,
+        "hint": "货物要早早入城，搬运的人也需要先吃上一口。",
+        "explanation": "孟元老记下了五更开市、点灯卖酒食和粥饭点心的生活。画中肩挑的行人和临街食品铺，能帮助我们理解这种城市节奏：商贸开始得早，吃饭与歇脚的生意也随之开始。",
+        "grade": "B",
+        "sourceIds": [
+          "S-Q12-07"
+        ],
+        "locator": "《东京梦华录》卷三“天晓诸人入市”：五更、酒店与粥饭点心。"
+      }
+    ],
+    "contentVersion": 12,
+    "contentResearchedAt": "2026-10-31"
+  },
+  {
+    "sceneId": "q_bridge",
+    "boundsPx": {
+      "x": 74800,
+      "y": 2500,
+      "width": 2700,
+      "height": 1500
+    },
+    "previewPath": "/review/q_bridge-context.jpg",
+    "cropSha256": "9deac62934f5c1462a2fbe12873f893278753f15e381ac519d2a449cd3d5af92",
+    "reviewStatus": "in_review",
+    "imageId": "fengning_1794",
+    "title": "一桥相逢",
+    "theme": "路",
+    "mechanic": "quiz",
+    "anchorPx": {
+      "x": 76150,
+      "y": 3250
+    },
+    "sourceRefs": [
+      "S-FN-01",
+      "S-Q12-08",
+      "S-P12-03",
+      "S-L12-01"
+    ],
+    "observation": "小木桥接通两岸，挑担者从桥上经过，桥边摆着桌案，另有人驻足交谈。",
+    "learningGoal": "理解桥市与人流的关系，用题金陵图诗读出普通劳动者的价值。",
+    "fictionDisclosure": "问题、选项、见微话语与答题奖励为 D 级创作。观察与研究分开，不认定未核实的行业、身份、地点和制度。",
+    "sourceSha256": "ec76713b0a845ed3f42f15a0b1f725e86419aaea5907ed569539ba16a3e2babb",
+    "imageInspectedBy": "Codex visual inspection, not human approval",
+    "inspectedAt": "2026-10-29",
+    "humanApproved": false,
+    "evidenceIds": [
+      "A-q_bridge",
+      "B-q_bridge"
+    ],
+    "claims": [
+      {
+        "id": "A-q_bridge",
+        "grade": "A",
+        "text": "小木桥接通两岸，挑担者从桥上经过，桥边摆着桌案，另有人驻足交谈。"
+      },
+      {
+        "id": "B-q_bridge",
+        "grade": "B",
+        "sourceIds": [
+          "S-FN-01",
+          "S-Q12-08",
+          "S-P12-03",
+          "S-L12-01"
+        ]
+      },
+      {
+        "id": "D-q_bridge",
+        "grade": "D",
+        "text": "问题、选项、见微话语与答题奖励为 D 级创作。观察与研究分开，不认定未核实的行业、身份、地点和制度。"
+      }
+    ],
+    "questions": [
+      {
+        "kind": "life",
+        "knowledgePoint": "一座桥，也会带来一个小市场",
+        "pictureClue": "留意桥上的挑担行人，以及桥边停下交谈的人。",
+        "prompt": "同样摆一个小摊，为什么桥头常比偏僻的小路更容易聚起生意？",
+        "options": [
+          "因为靠水的商品一律不用钱",
+          "过河的人流在这里汇合，容易停步交易",
+          "因为桥上每天只许商贩通过"
+        ],
+        "answer": 1,
+        "hint": "桥把分散在两岸的路人引向同一个通道。",
+        "explanation": "桥连接道路，也汇集客流。孟元老写汴京“坊巷桥市”有肉案，说明桥与买卖常相伴。结合这处挑担通行和桌前交谈的画面，桥头聚市的道理便很直观。",
+        "grade": "C",
+        "sourceIds": [
+          "S-Q12-08"
+        ],
+        "locator": "《东京梦华录》卷四“肉行”首句“坊巷桥市”；桥头聚客为结合画面的解释。"
+      },
+      {
+        "kind": "poem",
+        "knowledgePoint": "负贩入画，普通人也有风采",
+        "pictureClue": "看过桥挑担与桌前交易的人，再读这两句题画诗。",
+        "prompt": "弘历把“负贩”也写入金陵的风采。顺着这句诗看画，最值得留意的是什么？",
+        "options": [
+          "只找楼阁有多高，略过街上的人",
+          "给每位行人排出官阶高低",
+          "挑担售货者的举止，也构成一城的气质"
+        ],
+        "answer": 2,
+        "hint": "“负贩”指背负或挑着货物做买卖的人。",
+        "explanation": "这首题《宋院本金陵图》的诗，把目光从六朝文物转到负贩等普通人物，赞他们也有文人般的风采。画里挑担、交易、相逢的细小动作，正是读懂市井人情的一条线索。",
+        "grade": "B",
+        "sourceIds": [
+          "S-P12-03",
+          "S-L12-01"
+        ],
+        "locator": "弘历《御制诗三集》卷四十九“题宋院本金陵图”其一；周安庆、张宏2015年第5版引诗。",
+        "verse": {
+          "text": "试看负贩舆儓辈，\n都有谢颜徐庾风。",
+          "author": "弘历",
+          "title": "题宋院本金陵图·其一"
+        }
+      }
+    ],
+    "contentVersion": 12,
+    "contentResearchedAt": "2026-10-31"
+  },
+  {
+    "sceneId": "q_shop",
+    "boundsPx": {
+      "x": 55800,
+      "y": 1100,
+      "width": 2200,
+      "height": 1400
+    },
+    "previewPath": "/review/q_shop-context.jpg",
+    "cropSha256": "81acc25e3784431ab2cd4a916e5a9b6d953ae8f407f7897a6bf52bb0c5759f28",
+    "reviewStatus": "in_review",
+    "imageId": "fengning_1794",
+    "title": "一碗街市",
+    "theme": "业",
+    "mechanic": "quiz",
+    "anchorPx": {
+      "x": 56900,
+      "y": 1800
+    },
+    "sourceRefs": [
+      "S-FN-01",
+      "S-Q12-08",
+      "S-P12-04",
+      "S-Q12-09"
+    ],
+    "observation": "店前排着器皿，柜台内有人舀取食物或饮品，外面的人端碗、围桌而坐。",
+    "learningGoal": "认识宋代食店的点单服务，并从金陵酒诗了解压酒工序。",
+    "fictionDisclosure": "问题、选项、见微话语与答题奖励为 D 级创作。观察与研究分开，不认定未核实的行业、身份、地点和制度。",
+    "sourceSha256": "ec76713b0a845ed3f42f15a0b1f725e86419aaea5907ed569539ba16a3e2babb",
+    "imageInspectedBy": "Codex visual inspection, not human approval",
+    "inspectedAt": "2026-10-29",
+    "humanApproved": false,
+    "evidenceIds": [
+      "A-q_shop",
+      "B-q_shop"
+    ],
+    "claims": [
+      {
+        "id": "A-q_shop",
+        "grade": "A",
+        "text": "店前排着器皿，柜台内有人舀取食物或饮品，外面的人端碗、围桌而坐。"
+      },
+      {
+        "id": "B-q_shop",
+        "grade": "B",
+        "sourceIds": [
+          "S-FN-01",
+          "S-Q12-08",
+          "S-P12-04",
+          "S-Q12-09"
+        ]
+      },
+      {
+        "id": "D-q_shop",
+        "grade": "D",
+        "text": "问题、选项、见微话语与答题奖励为 D 级创作。观察与研究分开，不认定未核实的行业、身份、地点和制度。"
+      }
+    ],
+    "questions": [
+      {
+        "kind": "life",
+        "knowledgePoint": "宋代的店员，也要记住你的口味",
+        "pictureClue": "看柜台内外的招呼与端碗动作，想象食客各自点单。",
+        "prompt": "《东京梦华录》写食客会点热的、冷的、不同浇头。“行菜”的伙计最需要什么本领？",
+        "options": [
+          "记清各人的要求，报给厨房再逐一送对",
+          "把所有人的口味统一，省去传话",
+          "让每桌自己进厨房寻找碗筷"
+        ],
+        "answer": 0,
+        "hint": "“行菜”既要传菜，也要把客人的要求传到灶前。",
+        "explanation": "孟元老记食店先逐客问需，再向厨房唱报，端出来的碗要与每人的要求相合。热闹铺面背后有点单、制作和分送的协作；今天熟悉的个性化点餐，古人的饭桌边也有生动记载。",
+        "grade": "B",
+        "sourceIds": [
+          "S-Q12-08"
+        ],
+        "locator": "《东京梦华录》卷四“食店”：客坐问需、行菜唱报及送菜段。"
+      },
+      {
+        "kind": "poem",
+        "knowledgePoint": "李白诗里的“压酒”，是一道手艺",
+        "pictureClue": "看店中盛取、递送的器皿，从待客的动作读金陵酒诗。",
+        "prompt": "李白写“吴姬压酒唤客尝”。“压酒”是在做什么？",
+        "options": [
+          "把盛酒的杯子压在桌下冰镇",
+          "从发酵的酒料中压榨取出酒液",
+          "把还没酿过的粮粒直接榨成酒"
+        ],
+        "answer": 1,
+        "hint": "先经过酿造，再把酒液从酒料中取出。",
+        "explanation": "“压酒”写的是酿饮工序：酒酿将熟时压榨取汁，再请客人尝新。李白用一个“压”字，让金陵酒肆有了正在忙碌的手艺；对着画中盛取和待客的动作读，诗意也落到了日常生活里。",
+        "grade": "B",
+        "sourceIds": [
+          "S-P12-04",
+          "S-Q12-09"
+        ],
+        "locator": "《全唐诗》卷174“金陵酒肆留别”首联；《重编国语辞典修订本》“压酒”第一义。",
+        "verse": {
+          "text": "风吹柳花满店香，\n吴姬压酒唤客尝。",
+          "author": "李白",
+          "title": "金陵酒肆留别"
+        }
+      }
+    ],
+    "contentVersion": 12,
+    "contentResearchedAt": "2026-10-31"
+  },
+  {
+    "sceneId": "q_oxmarket",
+    "boundsPx": {
+      "x": 52000,
+      "y": 1900,
+      "width": 3000,
+      "height": 2000
+    },
+    "previewPath": "/review/q_oxmarket-context.jpg",
+    "cropSha256": "cdc821b6479bd8a9608cd53ea47129f806fc0a0f4f5d2869c0bb1b6a9248a729",
+    "reviewStatus": "in_review",
+    "imageId": "fengning_1794",
+    "title": "车马通衢",
+    "theme": "路",
+    "mechanic": "quiz",
+    "anchorPx": {
+      "x": 53500,
+      "y": 2900
+    },
+    "sourceRefs": [
+      "S-FN-01",
+      "S-Q12-07",
+      "S-Q12-10"
+    ],
+    "observation": "街道上交错着牛车、驮畜、肩挑者和轿子，木车轮的轮毂与辐条清楚可见。",
+    "learningGoal": "理解传统车辆的道路协作与轮毂结构。",
+    "fictionDisclosure": "问题、选项、见微话语与答题奖励为 D 级创作。观察与研究分开，不认定未核实的行业、身份、地点和制度。",
+    "sourceSha256": "ec76713b0a845ed3f42f15a0b1f725e86419aaea5907ed569539ba16a3e2babb",
+    "imageInspectedBy": "Codex visual inspection, not human approval",
+    "inspectedAt": "2026-10-29",
+    "humanApproved": false,
+    "evidenceIds": [
+      "A-q_oxmarket",
+      "B-q_oxmarket"
+    ],
+    "claims": [
+      {
+        "id": "A-q_oxmarket",
+        "grade": "A",
+        "text": "街道上交错着牛车、驮畜、肩挑者和轿子，木车轮的轮毂与辐条清楚可见。"
+      },
+      {
+        "id": "B-q_oxmarket",
+        "grade": "B",
+        "sourceIds": [
+          "S-FN-01",
+          "S-Q12-07",
+          "S-Q12-10"
+        ]
+      },
+      {
+        "id": "D-q_oxmarket",
+        "grade": "D",
+        "text": "问题、选项、见微话语与答题奖励为 D 级创作。观察与研究分开，不认定未核实的行业、身份、地点和制度。"
+      }
+    ],
+    "questions": [
+      {
+        "kind": "life",
+        "knowledgePoint": "古代货车也有“提示铃”",
+        "pictureClue": "大车、牲畜与行人同在一条路上，车夫如何让来人及早注意？",
+        "prompt": "《东京梦华录》说太平车悬一枚铁铃，车走铃响。它首先解决什么问题？",
+        "options": [
+          "替货物称重，听音就知斤两",
+          "替车夫计算一天走过的里数",
+          "提醒远处来车避让，减少相撞"
+        ],
+        "answer": 2,
+        "hint": "车还没近身，声音就先传到了。",
+        "explanation": "孟元老明确记车铃是为了让远来的车辆相避。看画中车、人、畜交错的街路，就能理解示警的作用：运输不只靠车轮和牲畜，也靠共同道路上的配合。",
+        "grade": "B",
+        "sourceIds": [
+          "S-Q12-07"
+        ],
+        "locator": "《东京梦华录》卷三“般载杂卖”：太平车铁铃“使远来者车相避”。"
+      },
+      {
+        "kind": "craft",
+        "knowledgePoint": "车轮中央的“空”，也有用处",
+        "pictureClue": "看大车轮上向中央聚拢的辐条。",
+        "prompt": "《老子》说“当其无，有车之用”。轮毂中央留出的空孔，为什么反而不可少？",
+        "options": [
+          "让车轴穿入，轮子才有转动的中心",
+          "让货物从轮心掉下，减轻重量",
+          "把辐条全部藏进去，车轮才会更小"
+        ],
+        "answer": 0,
+        "hint": "想一想轮子要围绕什么转；实心封死会怎样？",
+        "explanation": "辐条向轮毂汇聚，毂孔容纳车轴，整套结构才能发挥作用。《老子》借车轮讲“有”与“无”，王安石又提醒：孔洞的用处也离不开实际做好的毂与辐。一只木车轮里，还藏着古人的哲学讨论。",
+        "grade": "B",
+        "sourceIds": [
+          "S-Q12-10"
+        ],
+        "locator": "《老子》第十一章；王安石《老子》第二段论毂辐。"
+      }
+    ],
+    "contentVersion": 12,
+    "contentResearchedAt": "2026-10-31"
+  },
+  {
+    "sceneId": "q_wharf",
+    "boundsPx": {
+      "x": 45100,
+      "y": 500,
+      "width": 2900,
+      "height": 1850
+    },
+    "previewPath": "/review/q_wharf-context.jpg",
+    "cropSha256": "1eb3d24e3069bcdfa5e065651e29eaf8544bc0a0c198227479395a3f646bd969",
+    "reviewStatus": "in_review",
+    "imageId": "fengning_1794",
+    "title": "桥上桥下",
+    "theme": "路",
+    "mechanic": "quiz",
+    "anchorPx": {
+      "x": 46550,
+      "y": 1425
+    },
+    "sourceRefs": [
+      "S-FN-01",
+      "S-Q12-07",
+      "S-P12-05"
+    ],
+    "observation": "桥坡上有载货木车，一头牛在车后用绳相连；桥旁泊着篷船，岸边另有小摊和挑担者。",
+    "learningGoal": "从反向牵制理解货车下坡，再以《泊秦淮》读临水停泊与饮食生活。",
+    "fictionDisclosure": "问题、选项、见微话语与答题奖励为 D 级创作。观察与研究分开，不认定未核实的行业、身份、地点和制度。",
+    "sourceSha256": "ec76713b0a845ed3f42f15a0b1f725e86419aaea5907ed569539ba16a3e2babb",
+    "imageInspectedBy": "Codex visual inspection, not human approval",
+    "inspectedAt": "2026-10-29",
+    "humanApproved": false,
+    "evidenceIds": [
+      "A-q_wharf",
+      "B-q_wharf"
+    ],
+    "claims": [
+      {
+        "id": "A-q_wharf",
+        "grade": "A",
+        "text": "桥坡上有载货木车，一头牛在车后用绳相连；桥旁泊着篷船，岸边另有小摊和挑担者。"
+      },
+      {
+        "id": "B-q_wharf",
+        "grade": "B",
+        "sourceIds": [
+          "S-FN-01",
+          "S-Q12-07",
+          "S-P12-05"
+        ]
+      },
+      {
+        "id": "D-q_wharf",
+        "grade": "D",
+        "text": "问题、选项、见微话语与答题奖励为 D 级创作。观察与研究分开，不认定未核实的行业、身份、地点和制度。"
+      }
+    ],
+    "questions": [
+      {
+        "kind": "craft",
+        "knowledgePoint": "下桥时，牲畜还可以帮着“刹车”",
+        "pictureClue": "留意牛在货车哪一边，以及牛与车之间的绳索。",
+        "prompt": "牛在车后向着车身牵制，这个安排最能帮助车夫做什么？",
+        "options": [
+          "把车抬离桥面，减少车轮磨损",
+          "给车一个反向的力，让下坡慢一些",
+          "让货物自行滚到车前，方便卸货"
+        ],
+        "answer": 1,
+        "hint": "下坡的重车会向前溜，后方牵制可以抵住这股趋势。",
+        "explanation": "画中牛与货车的反向位置，能用来理解下坡牵制。《东京梦华录》记汴京大车后系驴骡，遇陡桥路便利用它们缒车缓行。牲畜不只会拉着车前进，也能参与控制速度。",
+        "grade": "C",
+        "sourceIds": [
+          "S-Q12-07"
+        ],
+        "locator": "《东京梦华录》卷三“般载杂卖”，车后系驴骡“使倒坐缒车，令缓行”；冯宁裁切中的牛车位置。"
+      },
+      {
+        "kind": "poem",
+        "knowledgePoint": "水边停一舟，岸上有一餐",
+        "pictureClue": "看靠岸的篷船，以及不远处供人停留的小摊。",
+        "prompt": "杜牧的“夜泊秦淮近酒家”，把舟与店连在了一起。它与眼前场景共有哪一种生活联系？",
+        "options": [
+          "船都必须改作酒家才能停靠",
+          "河边店铺只招待船夫，不接待行人",
+          "舟船停泊歇脚，临水店家接待来客"
+        ],
+        "answer": 2,
+        "hint": "“泊”是停船；停下之后，人也需要吃饭和休息。",
+        "explanation": "杜牧从秦淮夜泊写到近旁酒家，把水路旅行与岸上生活连起来。画里的篷船、小摊和行旅呈现了相似的空间联系：水上行程一停，岸边的人间烟火便近了。",
+        "grade": "B",
+        "sourceIds": [
+          "S-P12-05"
+        ],
+        "locator": "杜牧《泊秦淮》首联；画面联系为停船、岸边饮食与行旅。",
+        "verse": {
+          "text": "烟笼寒水月笼沙，\n夜泊秦淮近酒家。",
+          "author": "杜牧",
+          "title": "泊秦淮"
+        }
+      }
+    ],
+    "contentVersion": 12,
+    "contentResearchedAt": "2026-10-31"
+  },
+  {
+    "sceneId": "q_camel",
+    "boundsPx": {
+      "x": 38200,
+      "y": 2600,
+      "width": 2500,
+      "height": 1450
+    },
+    "previewPath": "/review/q_camel-context.jpg",
+    "cropSha256": "c3fe7ea3d157235a892d8edbc560199192963db508f1a8f061446523ff930fb0",
+    "reviewStatus": "in_review",
+    "imageId": "fengning_1794",
+    "title": "驼铃入城",
+    "theme": "路",
+    "mechanic": "quiz",
+    "anchorPx": {
+      "x": 39450,
+      "y": 3325
+    },
+    "sourceRefs": [
+      "S-FN-01",
+      "S-Q12-11",
+      "S-Q12-07"
+    ],
+    "observation": "路上有两头背着驮架的双峰骆驼，上方一头驴背着左右分置的篮筐，附近行人肩挑背负。",
+    "learningGoal": "理解骆驼的能量储存，以及驮运装载的平衡原理。",
+    "fictionDisclosure": "问题、选项、见微话语与答题奖励为 D 级创作。观察与研究分开，不认定未核实的行业、身份、地点和制度。",
+    "sourceSha256": "ec76713b0a845ed3f42f15a0b1f725e86419aaea5907ed569539ba16a3e2babb",
+    "imageInspectedBy": "Codex visual inspection, not human approval",
+    "inspectedAt": "2026-10-29",
+    "humanApproved": false,
+    "evidenceIds": [
+      "A-q_camel",
+      "B-q_camel"
+    ],
+    "claims": [
+      {
+        "id": "A-q_camel",
+        "grade": "A",
+        "text": "路上有两头背着驮架的双峰骆驼，上方一头驴背着左右分置的篮筐，附近行人肩挑背负。"
+      },
+      {
+        "id": "B-q_camel",
+        "grade": "B",
+        "sourceIds": [
+          "S-FN-01",
+          "S-Q12-11",
+          "S-Q12-07"
+        ]
+      },
+      {
+        "id": "D-q_camel",
+        "grade": "D",
+        "text": "问题、选项、见微话语与答题奖励为 D 级创作。观察与研究分开，不认定未核实的行业、身份、地点和制度。"
+      }
+    ],
+    "questions": [
+      {
+        "kind": "life",
+        "knowledgePoint": "驼峰更像“饭盒”",
+        "pictureClue": "看双峰骆驼隆起的背部，它们长途跋涉的本领不只来自驮架。",
+        "prompt": "骆驼的驼峰里，主要储存什么来帮助它应付缺食的旅程？",
+        "options": [
+          "脂肪，作为能量储备",
+          "可以直接饮用的一整袋水",
+          "一路收集起来的干草"
+        ],
+        "answer": 0,
+        "hint": "它把吃得充足时积存的养分，留到缺食时再用。",
+        "explanation": "驼峰主要是脂肪储备。台北市立动物园把它比作随身“饭盒”：食物短缺时可以提供能量。画中的驼峰与驮架，一个属于动物身体，一个是人加上的载具，共同让远行运输成为可能。",
+        "grade": "B",
+        "sourceIds": [
+          "S-Q12-11"
+        ],
+        "locator": "台北市立动物园“双峰骆驼——烟雨儿童动物区亮相”，驼峰储存脂肪段。"
+      },
+      {
+        "kind": "craft",
+        "knowledgePoint": "驮得稳，靠左右配重",
+        "pictureClue": "同时看骆驼的驮架，以及上方驴背两侧的篮筐。",
+        "prompt": "给这种驮运装货时，为什么常把货物分在身体两侧？",
+        "options": [
+          "让所有重货都压在同一边，方便转弯",
+          "左右配重，减少货物偏坠和晃动",
+          "只为把货物遮住，不让人看见"
+        ],
+        "answer": 1,
+        "hint": "想象你两手提物：一边很重、一边很轻，会怎样？",
+        "explanation": "画中驴背的双篮把载重分到两边。《东京梦华录》也记驮子“两搭背上”的装载方式。从结构看，左右配重能减少偏坠，驮架和绑扎则帮助固定货物；装载本身就是运输手艺。",
+        "grade": "C",
+        "sourceIds": [
+          "S-Q12-07"
+        ],
+        "locator": "《东京梦华录》卷三“般载杂卖”末段驮子“两搭背上”；配重作用为结构解释。"
+      }
+    ],
+    "contentVersion": 12,
+    "contentResearchedAt": "2026-10-31"
+  },
+  {
+    "sceneId": "q_sail",
+    "boundsPx": {
+      "x": 22500,
+      "y": 0,
+      "width": 3000,
+      "height": 2100
+    },
+    "previewPath": "/review/q_sail-context.jpg",
+    "cropSha256": "49141024a8749dd405d434d86e29c18af9fded4fdc377229a3e371821ba34223",
+    "reviewStatus": "in_review",
+    "imageId": "fengning_1794",
+    "title": "两桨同舟",
+    "theme": "业",
+    "mechanic": "quiz",
+    "anchorPx": {
+      "x": 24000,
+      "y": 1050
+    },
+    "sourceRefs": [
+      "S-FN-01",
+      "S-Q12-12",
+      "S-Q12-13"
+    ],
+    "observation": "小舟前后各有一人操持长桨，宽阔的桨叶贴近水面，船中有编织篷盖，船舷画出连续木板。",
+    "learningGoal": "理解桨叶拨水推进，以及木船接缝的传统防水工艺。",
+    "fictionDisclosure": "问题、选项、见微话语与答题奖励为 D 级创作。观察与研究分开，不认定未核实的行业、身份、地点和制度。",
+    "sourceSha256": "ec76713b0a845ed3f42f15a0b1f725e86419aaea5907ed569539ba16a3e2babb",
+    "imageInspectedBy": "Codex visual inspection, not human approval",
+    "inspectedAt": "2026-10-29",
+    "humanApproved": false,
+    "evidenceIds": [
+      "A-q_sail",
+      "B-q_sail"
+    ],
+    "claims": [
+      {
+        "id": "A-q_sail",
+        "grade": "A",
+        "text": "小舟前后各有一人操持长桨，宽阔的桨叶贴近水面，船中有编织篷盖，船舷画出连续木板。"
+      },
+      {
+        "id": "B-q_sail",
+        "grade": "B",
+        "sourceIds": [
+          "S-FN-01",
+          "S-Q12-12",
+          "S-Q12-13"
+        ]
+      },
+      {
+        "id": "D-q_sail",
+        "grade": "D",
+        "text": "问题、选项、见微话语与答题奖励为 D 级创作。观察与研究分开，不认定未核实的行业、身份、地点和制度。"
+      }
+    ],
+    "questions": [
+      {
+        "kind": "craft",
+        "knowledgePoint": "桨是拨水，篙是撑底",
+        "pictureClue": "沿前方船工的长杆往下看，末端有一片宽桨叶。",
+        "prompt": "这片宽桨叶与一根细长的撑篙相比，主要怎样推动船？",
+        "options": [
+          "先钩住河岸，再拖着船走",
+          "每次都要插进河底，撑起整条船",
+          "用桨叶拨动水，让水的反作用推动船"
+        ],
+        "answer": 2,
+        "hint": "留意宽的那一片：它是用来对着水施力的。",
+        "explanation": "古书把“楫”解释为拨水行舟的用具，也称棹、桡。宽桨叶对水施力，船便受到反向推动；撑篙则借河底或岸边受力。画里伸向水面的桨叶，让这两种办法的差别看得见。",
+        "grade": "C",
+        "sourceIds": [
+          "S-Q12-12"
+        ],
+        "locator": "《康熙字典》“楫”条引《释名》《方言》；拨水推进的力学为解释。"
+      },
+      {
+        "kind": "craft",
+        "knowledgePoint": "木船防水，功夫在接缝",
+        "pictureClue": "看船舷一条条木板：板能拼在一起，水却会寻找缝隙。",
+        "prompt": "《天工开物》记造船时先向板缝填麻絮，再调油灰。这是在解决什么问题？",
+        "options": [
+          "填实接缝，阻止河水往船里渗",
+          "加重船底，使船身吃水更深",
+          "把板面磨平，让船行阻力更小"
+        ],
+        "answer": 0,
+        "hint": "钉子能把木板连住，接缝还需要柔韧的填料来封严。",
+        "explanation": "《天工开物·漕舫》记将白麻斫成絮填入板缝，再用细石灰与桐油调艌（niàn，填塞船缝）。木船能载人行水，除了船工操桨，还离不开船匠细密的防水手艺。",
+        "grade": "B",
+        "sourceIds": [
+          "S-Q12-13"
+        ],
+        "locator": "《天工开物·舟车·漕舫》“凡船板合隙缝”段。"
+      }
+    ],
+    "contentVersion": 12,
+    "contentResearchedAt": "2026-10-31"
+  },
+  {
+    "sceneId": "q_grazing",
+    "boundsPx": {
+      "x": 11500,
+      "y": 1850,
+      "width": 3500,
+      "height": 2100
+    },
+    "previewPath": "/review/q_grazing-context.jpg",
+    "cropSha256": "6c088a3adcedccc8a2b3ee2786ac16444c1ce49af4378d3a5e0557e21f86cd9b",
+    "reviewStatus": "in_review",
+    "imageId": "fengning_1794",
+    "title": "田畔畜力",
+    "theme": "业",
+    "mechanic": "quiz",
+    "anchorPx": {
+      "x": 13250,
+      "y": 2900
+    },
+    "sourceRefs": [
+      "S-FN-01",
+      "S-P12-06",
+      "S-Q12-14"
+    ],
+    "observation": "田畔有低头吃草的牛，旁边的人赶着驴牵引木架，田块由高低相接的田埂分开。",
+    "learningGoal": "体会农忙的家庭协作，认识畜力劳动与养护相伴。",
+    "fictionDisclosure": "问题、选项、见微话语与答题奖励为 D 级创作。观察与研究分开，不认定未核实的行业、身份、地点和制度。",
+    "sourceSha256": "ec76713b0a845ed3f42f15a0b1f725e86419aaea5907ed569539ba16a3e2babb",
+    "imageInspectedBy": "Codex visual inspection, not human approval",
+    "inspectedAt": "2026-10-29",
+    "humanApproved": false,
+    "evidenceIds": [
+      "A-q_grazing",
+      "B-q_grazing"
+    ],
+    "claims": [
+      {
+        "id": "A-q_grazing",
+        "grade": "A",
+        "text": "田畔有低头吃草的牛，旁边的人赶着驴牵引木架，田块由高低相接的田埂分开。"
+      },
+      {
+        "id": "B-q_grazing",
+        "grade": "B",
+        "sourceIds": [
+          "S-FN-01",
+          "S-P12-06",
+          "S-Q12-14"
+        ]
+      },
+      {
+        "id": "D-q_grazing",
+        "grade": "D",
+        "text": "问题、选项、见微话语与答题奖励为 D 级创作。观察与研究分开，不认定未核实的行业、身份、地点和制度。"
+      }
+    ],
+    "questions": [
+      {
+        "kind": "poem",
+        "knowledgePoint": "农忙，是一家人的大事",
+        "pictureClue": "把田块、牲畜和持杆劳动的人放在一起看。",
+        "prompt": "王维写“倾家事南亩”，最能帮助我们读懂哪一种田间生活？",
+        "options": [
+          "全家把房子搬到了田地中央",
+          "农忙时一家人都投入田间劳作",
+          "只由一人劳作，其余人全日休息"
+        ],
+        "answer": 1,
+        "hint": "“倾家”在这里是全家出动，“南亩”指田地。",
+        "explanation": "《新晴野望》先写雨后开阔的原野，最后把目光落在忙碌的人身上。“农月无闲人”提醒我们，田园的丰盛来自持续劳动；画里的畜力、田埂和赶畜人，也把风景变成了生产中的土地。",
+        "grade": "B",
+        "sourceIds": [
+          "S-P12-06"
+        ],
+        "locator": "王维《新晴野望》末联。",
+        "verse": {
+          "text": "农月无闲人，\n倾家事南亩。",
+          "author": "王维",
+          "title": "新晴野望"
+        }
+      },
+      {
+        "kind": "life",
+        "knowledgePoint": "牛马的力气，也需要养出来",
+        "pictureClue": "一边是牵引木架的驴，一边是低头吃草的牛。",
+        "prompt": "古农书说“服牛乘马，量其力能”。若你安排明天的农活，怎样做最合适？",
+        "options": [
+          "只按田地面积加活，体力留到收工再看",
+          "给所有牲畜同样重的活，越快越好",
+          "按牲畜的体力安排活计，并照顾饮食与休息"
+        ],
+        "answer": 2,
+        "hint": "“量”是衡量；出力之后，还要补回体力。",
+        "explanation": "《齐民要术》把衡量役畜体力与照顾寒温、饮饲放在一起。畜力不是取之不尽的机器：劳动、取食和休息相互衔接。画中干活与吃草的牲畜，恰好让这层农业经验有了形象。",
+        "grade": "B",
+        "sourceIds": [
+          "S-Q12-14"
+        ],
+        "locator": "《齐民要术》卷六“养牛马驴骡第五十六”开篇。"
+      }
+    ],
+    "contentVersion": 12,
+    "contentResearchedAt": "2026-10-31"
+  }
+]

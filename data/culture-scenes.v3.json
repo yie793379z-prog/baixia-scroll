@@ -1,0 +1,442 @@
+[
+  {
+    "sceneId": "rural_path",
+    "imageId": "fengning_1794",
+    "title": "乡途寻迹",
+    "boundsPx": {
+      "x": 121800,
+      "y": 1200,
+      "width": 6200,
+      "height": 2800
+    },
+    "anchorPx": {
+      "x": 125500,
+      "y": 2050
+    },
+    "theme": "路",
+    "mechanic": "route",
+    "sourceRefs": [
+      "S-FN-01",
+      "S-FN-02"
+    ],
+    "observation": "有小桥、相接的土路、挑担行人和驮畜。",
+    "learningGoal": "沿可见桥路观察行旅如何穿过乡野。",
+    "fictionDisclosure": "路径容差、目的地与旅人台词为游戏设计，不是历史驿道测绘。",
+    "previewPath": "/review/rural_path-context.jpg",
+    "sourceSha256": "ec76713b0a845ed3f42f15a0b1f725e86419aaea5907ed569539ba16a3e2babb",
+    "cropSha256": "79c35ad9e59cb4c846a92c55fb4a2fa1cc89c2e50a9f1b17c491567003c81ebf",
+    "imageInspectedBy": "Codex visual inspection, not human approval",
+    "inspectedAt": "2026-10-29",
+    "reviewStatus": "in_review",
+    "humanApproved": false,
+    "orderRightToLeft": 1,
+    "evidenceIds": [
+      "A-rural_path",
+      "B-rural_path"
+    ],
+    "claims": [
+      {
+        "id": "A-rural_path",
+        "grade": "A",
+        "text": "有小桥、相接的土路、挑担行人和驮畜。"
+      },
+      {
+        "id": "B-rural_path",
+        "grade": "B",
+        "sourceIds": [
+          "S-FN-01",
+          "S-FN-02"
+        ]
+      },
+      {
+        "id": "D-rural_path",
+        "grade": "D",
+        "text": "路径容差、目的地与旅人台词为游戏设计，不是历史驿道测绘。"
+      }
+    ]
+  },
+  {
+    "sceneId": "well",
+    "imageId": "fengning_1794",
+    "title": "一井千家",
+    "boundsPx": {
+      "x": 116700,
+      "y": 500,
+      "width": 1500,
+      "height": 1500
+    },
+    "anchorPx": {
+      "x": 117160,
+      "y": 1210
+    },
+    "theme": "人",
+    "mechanic": "well",
+    "sourceRefs": [
+      "S-FN-03"
+    ],
+    "observation": "围墙前有井口、持绳俯身的人物，旁置容器。",
+    "learningGoal": "观察取水动作与器具，体验慢提和急提的不同。",
+    "fictionDisclosure": "桶、水量和惯性数值是教学模型；不添加原图没有的辘轳，也不推断供水制度。",
+    "previewPath": "/review/well-context.jpg",
+    "sourceSha256": "ec76713b0a845ed3f42f15a0b1f725e86419aaea5907ed569539ba16a3e2babb",
+    "cropSha256": "f5b66bdbb6d212494282d60b6fe83c93abfb0b2636666e7deac214ec4b4a07cc",
+    "imageInspectedBy": "Codex visual inspection, not human approval",
+    "inspectedAt": "2026-10-29",
+    "reviewStatus": "in_review",
+    "humanApproved": false,
+    "orderRightToLeft": 2,
+    "evidenceIds": [
+      "A-well",
+      "B-well"
+    ],
+    "claims": [
+      {
+        "id": "A-well",
+        "grade": "A",
+        "text": "围墙前有井口、持绳俯身的人物，旁置容器。"
+      },
+      {
+        "id": "B-well",
+        "grade": "B",
+        "sourceIds": [
+          "S-FN-03"
+        ]
+      },
+      {
+        "id": "D-well",
+        "grade": "D",
+        "text": "桶、水量和惯性数值是教学模型；不添加原图没有的辘轳，也不推断供水制度。"
+      }
+    ]
+  },
+  {
+    "sceneId": "cart",
+    "imageId": "fengning_1794",
+    "title": "负重行旅",
+    "boundsPx": {
+      "x": 99350,
+      "y": 2300,
+      "width": 4700,
+      "height": 1750
+    },
+    "anchorPx": {
+      "x": 101320,
+      "y": 3100
+    },
+    "theme": "路",
+    "mechanic": "cart",
+    "sourceRefs": [
+      "S-FN-02"
+    ],
+    "observation": "可见有轮车辆、牵引牲畜、载物与随行人物。",
+    "learningGoal": "分辨车、畜、人之间的运输关系。",
+    "fictionDisclosure": "不认定货物品类、具体身份、运价或路线。",
+    "previewPath": "/review/cart-context.jpg",
+    "sourceSha256": "ec76713b0a845ed3f42f15a0b1f725e86419aaea5907ed569539ba16a3e2babb",
+    "cropSha256": "bb7c8d918633545d57302d32e00bb66dfe7b55d73b521f7da77210364fe15b70",
+    "imageInspectedBy": "Codex visual inspection, not human approval",
+    "inspectedAt": "2026-10-29",
+    "reviewStatus": "in_review",
+    "humanApproved": false,
+    "orderRightToLeft": 3,
+    "evidenceIds": [
+      "A-cart",
+      "B-cart"
+    ],
+    "claims": [
+      {
+        "id": "A-cart",
+        "grade": "A",
+        "text": "可见有轮车辆、牵引牲畜、载物与随行人物。"
+      },
+      {
+        "id": "B-cart",
+        "grade": "B",
+        "sourceIds": [
+          "S-FN-02"
+        ]
+      },
+      {
+        "id": "D-cart",
+        "grade": "D",
+        "text": "不认定货物品类、具体身份、运价或路线。"
+      }
+    ]
+  },
+  {
+    "sceneId": "city_gate",
+    "imageId": "fengning_1794",
+    "title": "门影拼合",
+    "boundsPx": {
+      "x": 69500,
+      "y": 250,
+      "width": 4300,
+      "height": 3550
+    },
+    "anchorPx": {
+      "x": 72200,
+      "y": 2200
+    },
+    "theme": "路",
+    "mechanic": "puzzle",
+    "sourceRefs": [
+      "S-FN-03",
+      "S-FN-06"
+    ],
+    "observation": "可见围合墙体、不同方向的门洞及门前人物。",
+    "learningGoal": "通过墙体与门洞观察复杂入口，区分构造观察和地名推测。",
+    "fictionDisclosure": "遮挡后的路线不补画成已知事实；不指定城门名称。",
+    "previewPath": "/review/city_gate-context.jpg",
+    "sourceSha256": "ec76713b0a845ed3f42f15a0b1f725e86419aaea5907ed569539ba16a3e2babb",
+    "cropSha256": "284d58cade5e36b1917f0cbdf13e4aa94c0a0d2834530fc1f44a7f08e4ed5c53",
+    "imageInspectedBy": "Codex visual inspection, not human approval",
+    "inspectedAt": "2026-10-29",
+    "reviewStatus": "in_review",
+    "humanApproved": false,
+    "orderRightToLeft": 4,
+    "evidenceIds": [
+      "A-city_gate",
+      "B-city_gate"
+    ],
+    "claims": [
+      {
+        "id": "A-city_gate",
+        "grade": "A",
+        "text": "可见围合墙体、不同方向的门洞及门前人物。"
+      },
+      {
+        "id": "B-city_gate",
+        "grade": "B",
+        "sourceIds": [
+          "S-FN-03",
+          "S-FN-06"
+        ]
+      },
+      {
+        "id": "D-city_gate",
+        "grade": "D",
+        "text": "遮挡后的路线不补画成已知事实；不指定城门名称。"
+      }
+    ]
+  },
+  {
+    "sceneId": "market",
+    "imageId": "fengning_1794",
+    "title": "市井称量",
+    "boundsPx": {
+      "x": 62800,
+      "y": 800,
+      "width": 3200,
+      "height": 2400
+    },
+    "anchorPx": {
+      "x": 64400,
+      "y": 2200
+    },
+    "theme": "业",
+    "mechanic": "weigh",
+    "sourceRefs": [
+      "S-FN-02"
+    ],
+    "observation": "开敞铺面前有容器、秤架、提篮人物与车辆。",
+    "learningGoal": "发现店铺、器具与通行者如何共同构成街市。",
+    "fictionDisclosure": "不据模糊器具认定行业、店名、价格或经营者传记。",
+    "previewPath": "/review/market-context.jpg",
+    "sourceSha256": "ec76713b0a845ed3f42f15a0b1f725e86419aaea5907ed569539ba16a3e2babb",
+    "cropSha256": "24dcbdccc177e24027c450528e1bbb70d753bb7ed5e15f69450dcad07c7cfbec",
+    "imageInspectedBy": "Codex visual inspection, not human approval",
+    "inspectedAt": "2026-10-29",
+    "reviewStatus": "in_review",
+    "humanApproved": false,
+    "orderRightToLeft": 5,
+    "evidenceIds": [
+      "A-market",
+      "B-market"
+    ],
+    "claims": [
+      {
+        "id": "A-market",
+        "grade": "A",
+        "text": "开敞铺面前有容器、秤架、提篮人物与车辆。"
+      },
+      {
+        "id": "B-market",
+        "grade": "B",
+        "sourceIds": [
+          "S-FN-02"
+        ]
+      },
+      {
+        "id": "D-market",
+        "grade": "D",
+        "text": "不据模糊器具认定行业、店名、价格或经营者传记。"
+      }
+    ]
+  },
+  {
+    "sceneId": "water_gate",
+    "imageId": "fengning_1794",
+    "title": "水门行舟",
+    "boundsPx": {
+      "x": 32700,
+      "y": 0,
+      "width": 4400,
+      "height": 2800
+    },
+    "anchorPx": {
+      "x": 34880,
+      "y": 1200
+    },
+    "theme": "路",
+    "mechanic": "cargo",
+    "sourceRefs": [
+      "S-FN-02"
+    ],
+    "observation": "墙体下的门洞连接水面，一艘有篷船与船上人物位于门口。",
+    "learningGoal": "联系水门、舟船和岸边生活，理解水陆空间的连接。",
+    "fictionDisclosure": "包裹、舱位、配载与通行规则是抽象游戏模型，不是历史船型参数或税制。",
+    "previewPath": "/review/water_gate-context.jpg",
+    "sourceSha256": "ec76713b0a845ed3f42f15a0b1f725e86419aaea5907ed569539ba16a3e2babb",
+    "cropSha256": "0e7c34a69fd12c401ef1238fd8efe2a6a0548edb0009ccdf56d705815d58c67e",
+    "imageInspectedBy": "Codex visual inspection, not human approval",
+    "inspectedAt": "2026-10-29",
+    "reviewStatus": "in_review",
+    "humanApproved": false,
+    "orderRightToLeft": 6,
+    "evidenceIds": [
+      "A-water_gate",
+      "B-water_gate"
+    ],
+    "claims": [
+      {
+        "id": "A-water_gate",
+        "grade": "A",
+        "text": "墙体下的门洞连接水面，一艘有篷船与船上人物位于门口。"
+      },
+      {
+        "id": "B-water_gate",
+        "grade": "B",
+        "sourceIds": [
+          "S-FN-02"
+        ]
+      },
+      {
+        "id": "D-water_gate",
+        "grade": "D",
+        "text": "包裹、舱位、配载与通行规则是抽象游戏模型，不是历史船型参数或税制。"
+      }
+    ]
+  },
+  {
+    "sceneId": "farmland",
+    "imageId": "fengning_1794",
+    "title": "场院合力",
+    "boundsPx": {
+      "x": 2600,
+      "y": 700,
+      "width": 4400,
+      "height": 2100
+    },
+    "anchorPx": {
+      "x": 3900,
+      "y": 2250
+    },
+    "theme": "业",
+    "mechanic": "field",
+    "sourceRefs": [
+      "S-FN-01"
+    ],
+    "observation": "田块附近有人手持长柄工具操作地面铺陈物，旁有房舍。",
+    "learningGoal": "将田块、劳动人物与居住空间一同观察。",
+    "fictionDisclosure": "工具动作保持描述性，不臆断农作物名称、产量、季节或精确工序。",
+    "previewPath": "/review/farmland-context.jpg",
+    "sourceSha256": "ec76713b0a845ed3f42f15a0b1f725e86419aaea5907ed569539ba16a3e2babb",
+    "cropSha256": "6bd2ec7c329cfdd0bfe4c3a176973b548f0ef8e1e6c048f7c14b9ee6bb03f398",
+    "imageInspectedBy": "Codex visual inspection, not human approval",
+    "inspectedAt": "2026-10-29",
+    "reviewStatus": "in_review",
+    "humanApproved": false,
+    "orderRightToLeft": 7,
+    "evidenceIds": [
+      "A-farmland",
+      "B-farmland"
+    ],
+    "claims": [
+      {
+        "id": "A-farmland",
+        "grade": "A",
+        "text": "田块附近有人手持长柄工具操作地面铺陈物，旁有房舍。"
+      },
+      {
+        "id": "B-farmland",
+        "grade": "B",
+        "sourceIds": [
+          "S-FN-01"
+        ]
+      },
+      {
+        "id": "D-farmland",
+        "grade": "D",
+        "text": "工具动作保持描述性，不臆断农作物名称、产量、季节或精确工序。"
+      }
+    ]
+  },
+  {
+    "sceneId": "signature",
+    "imageId": "fengning_1794",
+    "title": "画外辨真",
+    "boundsPx": {
+      "x": 1920,
+      "y": 2630,
+      "width": 450,
+      "height": 1100
+    },
+    "anchorPx": {
+      "x": 2150,
+      "y": 3190
+    },
+    "theme": "画",
+    "mechanic": "evidence",
+    "sourceRefs": [
+      "S-FN-01",
+      "S-FN-02",
+      "S-FN-04"
+    ],
+    "observation": "卷尾竖行款识可见乾隆五十九年十一月及臣冯宁奉敕恭仿等文字。",
+    "learningGoal": "区分直接观察、研究论述、推测与游戏创作。",
+    "fictionDisclosure": "见微身份与证据分类规则属于当代设计；祖本年代争议不设唯一历史答案。",
+    "previewPath": "/review/signature-context.jpg",
+    "sourceSha256": "ec76713b0a845ed3f42f15a0b1f725e86419aaea5907ed569539ba16a3e2babb",
+    "cropSha256": "0c737aaf78725c577037610cdba5408b2aa16b1105967c0255e81e8d6416c9c3",
+    "imageInspectedBy": "Codex visual inspection, not human approval",
+    "inspectedAt": "2026-10-29",
+    "reviewStatus": "in_review",
+    "humanApproved": false,
+    "orderRightToLeft": 8,
+    "evidenceIds": [
+      "A-signature",
+      "B-signature"
+    ],
+    "claims": [
+      {
+        "id": "A-signature",
+        "grade": "A",
+        "text": "卷尾竖行款识可见乾隆五十九年十一月及臣冯宁奉敕恭仿等文字。"
+      },
+      {
+        "id": "B-signature",
+        "grade": "B",
+        "sourceIds": [
+          "S-FN-01",
+          "S-FN-02",
+          "S-FN-04"
+        ]
+      },
+      {
+        "id": "D-signature",
+        "grade": "D",
+        "text": "见微身份与证据分类规则属于当代设计；祖本年代争议不设唯一历史答案。"
+      }
+    ]
+  }
+]

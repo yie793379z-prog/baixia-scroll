@@ -1,0 +1,106 @@
+{
+  "model": "depth-anything/Depth-Anything-V2-Small-hf",
+  "revision": "5426e4f0f36572d16453bbda7a8389317b1bef99",
+  "license": "Apache-2.0",
+  "method": "Local CPU inference; relative depth for parallax, plus separately authored local motion masks",
+  "inputUploaded": false,
+  "torch": "2.8.0",
+  "scenes": [
+    {
+      "sceneId": "rural_path",
+      "imagePath": "/review/rural_path-context.jpg",
+      "depthPath": "/living/rural_path-depth.png",
+      "dimensions": {
+        "width": 1800,
+        "height": 813
+      },
+      "imageSha256": "79c35ad9e59cb4c846a92c55fb4a2fa1cc89c2e50a9f1b17c491567003c81ebf",
+      "depthSha256": "a2b0a95bcc982d4f19e9387726ac08c46c57acab8744af48a1631d8faa1259ce",
+      "seconds": 0.86
+    },
+    {
+      "sceneId": "well",
+      "imagePath": "/review/well-context.jpg",
+      "depthPath": "/living/well-depth.png",
+      "dimensions": {
+        "width": 1500,
+        "height": 1500
+      },
+      "imageSha256": "f5b66bdbb6d212494282d60b6fe83c93abfb0b2636666e7deac214ec4b4a07cc",
+      "depthSha256": "3241a5e3aae10e3a8336b6355cc09c0342a016029ecc625f84f6937b60ffdd75",
+      "seconds": 0.27
+    },
+    {
+      "sceneId": "cart",
+      "imagePath": "/review/cart-context.jpg",
+      "depthPath": "/living/cart-depth.png",
+      "dimensions": {
+        "width": 1600,
+        "height": 596
+      },
+      "imageSha256": "bb7c8d918633545d57302d32e00bb66dfe7b55d73b521f7da77210364fe15b70",
+      "depthSha256": "a57914d4a04fb829d9eb74e9cc298afa6dea5f18da696e0f9b5148a54544fc0a",
+      "seconds": 0.97
+    },
+    {
+      "sceneId": "city_gate",
+      "imagePath": "/review/city_gate-context.jpg",
+      "depthPath": "/living/city_gate-depth.png",
+      "dimensions": {
+        "width": 1600,
+        "height": 1321
+      },
+      "imageSha256": "284d58cade5e36b1917f0cbdf13e4aa94c0a0d2834530fc1f44a7f08e4ed5c53",
+      "depthSha256": "d1b28d1ce05085411ff013bf644496b38c08cd033d1c0960493c333313feda19",
+      "seconds": 0.33
+    },
+    {
+      "sceneId": "market",
+      "imagePath": "/review/market-context.jpg",
+      "depthPath": "/living/market-depth.png",
+      "dimensions": {
+        "width": 1600,
+        "height": 1200
+      },
+      "imageSha256": "24dcbdccc177e24027c450528e1bbb70d753bb7ed5e15f69450dcad07c7cfbec",
+      "depthSha256": "29cdd3c32023dd033e9b32a0cabc9d77ad8dc7325ab4c79ed37452933f09d65d",
+      "seconds": 0.35
+    },
+    {
+      "sceneId": "water_gate",
+      "imagePath": "/review/water_gate-context.jpg",
+      "depthPath": "/living/water_gate-depth.png",
+      "dimensions": {
+        "width": 1600,
+        "height": 1018
+      },
+      "imageSha256": "0e7c34a69fd12c401ef1238fd8efe2a6a0548edb0009ccdf56d705815d58c67e",
+      "depthSha256": "aa48e10101b8a819c59ab2384ce0314bdc5f87d13d813de005297e430ba1b9fe",
+      "seconds": 0.41
+    },
+    {
+      "sceneId": "farmland",
+      "imagePath": "/review/farmland-context.jpg",
+      "depthPath": "/living/farmland-depth.png",
+      "dimensions": {
+        "width": 1600,
+        "height": 764
+      },
+      "imageSha256": "6bd2ec7c329cfdd0bfe4c3a176973b548f0ef8e1e6c048f7c14b9ee6bb03f398",
+      "depthSha256": "312de305239ab3d1cffc7590777095aec6149bb28f4548f1f30870a68cc15d97",
+      "seconds": 0.56
+    },
+    {
+      "sceneId": "q_sail",
+      "imagePath": "/review/q_sail-context.jpg",
+      "depthPath": "/living/q_sail-depth.png",
+      "dimensions": {
+        "width": 1400,
+        "height": 980
+      },
+      "imageSha256": "49141024a8749dd405d434d86e29c18af9fded4fdc377229a3e371821ba34223",
+      "depthSha256": "47903a317eaac2b393051e439cc762adc2a95fd83dfe5f3ff2ec2a02881c7bac",
+      "seconds": 0.35
+    }
+  ]
+}

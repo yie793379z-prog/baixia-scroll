@@ -1,0 +1,4 @@
+FPS arms by para (2015), original mesh and skin by the MakeHuman team.
+CC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://opengameart.org/content/fps-arms-rigged-only
+Modified for this game: right-hand extraction, smooth surface, UV crop, new grip animation.
